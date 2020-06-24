@@ -12,8 +12,11 @@
 		9DE768FD24A2AE5400BF94E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768FC24A2AE5400BF94E3 /* ViewController.swift */; };
 		9DE7690024A2AE5400BF94E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE768FE24A2AE5400BF94E3 /* Main.storyboard */; };
 		9DE7690324A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7690124A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld */; };
-		9DE7690524A2AE5700BF94E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7690424A2AE5700BF94E3 /* Assets.xcassets */; };
 		9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */; };
+		9DE7692024A2E86500BF94E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7691F24A2E86400BF94E3 /* Assets.xcassets */; };
+		9DE7692424A3982300BF94E3 /* MCDropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692324A3982300BF94E3 /* MCDropCell.swift */; };
+		9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */; };
+		9DE7693824A3BD8700BF94E3 /* PopUpSourceCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +26,12 @@
 		9DE768FC24A2AE5400BF94E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DE768FF24A2AE5400BF94E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DE7690224A2AE5400BF94E3 /* EZvoteDraft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZvoteDraft.xcdatamodel; sourceTree = "<group>"; };
-		9DE7690424A2AE5700BF94E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE7690724A2AE5700BF94E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE7690924A2AE5700BF94E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE7691F24A2E86400BF94E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		9DE7692324A3982300BF94E3 /* MCDropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCDropCell.swift; sourceTree = "<group>"; };
+		9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSourceCCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */,
+				9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */,
+				9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */,
 				9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */,
-				9DE768FC24A2AE5400BF94E3 /* ViewController.swift */,
 				9DE768FE24A2AE5400BF94E3 /* Main.storyboard */,
-				9DE7690424A2AE5700BF94E3 /* Assets.xcassets */,
+				9DE768FC24A2AE5400BF94E3 /* ViewController.swift */,
+				9DE7692324A3982300BF94E3 /* MCDropCell.swift */,
+				9DE7691F24A2E86400BF94E3 /* Assets.xcassets */,
 				9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */,
 				9DE7690924A2AE5700BF94E3 /* Info.plist */,
 				9DE7690124A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld */,
@@ -129,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */,
-				9DE7690524A2AE5700BF94E3 /* Assets.xcassets in Resources */,
+				9DE7692024A2E86500BF94E3 /* Assets.xcassets in Resources */,
 				9DE7690024A2AE5400BF94E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE7693824A3BD8700BF94E3 /* PopUpSourceCCViewController.swift in Sources */,
 				9DE768FD24A2AE5400BF94E3 /* ViewController.swift in Sources */,
+				9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */,
+				9DE7692424A3982300BF94E3 /* MCDropCell.swift in Sources */,
 				9DE768F924A2AE5400BF94E3 /* AppDelegate.swift in Sources */,
 				9DE7690324A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld in Sources */,
 				9DE768FB24A2AE5400BF94E3 /* SceneDelegate.swift in Sources */,
