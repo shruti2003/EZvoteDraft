@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A93BDBE24A3D4F80010DF22 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A93BDBD24A3D4F80010DF22 /* Media.xcassets */; };
+		7A93BDC024A3EBBB0010DF22 /* Open_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 7A93BDBF24A3EBBB0010DF22 /* Open_Sans */; };
 		9DE768F924A2AE5400BF94E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */; };
 		9DE768FB24A2AE5400BF94E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */; };
 		9DE768FD24A2AE5400BF94E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768FC24A2AE5400BF94E3 /* ViewController.swift */; };
 		9DE7690024A2AE5400BF94E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE768FE24A2AE5400BF94E3 /* Main.storyboard */; };
 		9DE7690324A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7690124A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld */; };
 		9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */; };
-		9DE7692024A2E86500BF94E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7691F24A2E86400BF94E3 /* Assets.xcassets */; };
 		9DE7692424A3982300BF94E3 /* MCDropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692324A3982300BF94E3 /* MCDropCell.swift */; };
 		9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */; };
 		9DE7693824A3BD8700BF94E3 /* PopUpSourceCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A93BDBD24A3D4F80010DF22 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7A93BDBF24A3EBBB0010DF22 /* Open_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Open_Sans; path = ../../../Downloads/Open_Sans; sourceTree = "<group>"; };
 		9DE768F524A2AE5400BF94E3 /* EZvoteDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZvoteDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +31,6 @@
 		9DE7690224A2AE5400BF94E3 /* EZvoteDraft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZvoteDraft.xcdatamodel; sourceTree = "<group>"; };
 		9DE7690724A2AE5700BF94E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE7690924A2AE5700BF94E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DE7691F24A2E86400BF94E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		9DE7692324A3982300BF94E3 /* MCDropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCDropCell.swift; sourceTree = "<group>"; };
 		9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSourceCCViewController.swift; sourceTree = "<group>"; };
@@ -71,10 +73,11 @@
 				9DE768FE24A2AE5400BF94E3 /* Main.storyboard */,
 				9DE768FC24A2AE5400BF94E3 /* ViewController.swift */,
 				9DE7692324A3982300BF94E3 /* MCDropCell.swift */,
-				9DE7691F24A2E86400BF94E3 /* Assets.xcassets */,
+				7A93BDBD24A3D4F80010DF22 /* Media.xcassets */,
 				9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */,
 				9DE7690924A2AE5700BF94E3 /* Info.plist */,
 				9DE7690124A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld */,
+				7A93BDBF24A3EBBB0010DF22 /* Open_Sans */,
 			);
 			path = EZvoteDraft;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */,
-				9DE7692024A2E86500BF94E3 /* Assets.xcassets in Resources */,
+				7A93BDBE24A3D4F80010DF22 /* Media.xcassets in Resources */,
+				7A93BDC024A3EBBB0010DF22 /* Open_Sans in Resources */,
 				9DE7690024A2AE5400BF94E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +303,6 @@
 		9DE7690D24A2AE5700BF94E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EZvoteDraft/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,7 +319,6 @@
 		9DE7690E24A2AE5700BF94E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EZvoteDraft/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
