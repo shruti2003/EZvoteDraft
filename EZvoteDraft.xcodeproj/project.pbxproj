@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2A672E24A52E1E00F59DE7 /* votingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A672D24A52E1E00F59DE7 /* votingViewController.swift */; };
 		7A93BDBE24A3D4F80010DF22 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A93BDBD24A3D4F80010DF22 /* Media.xcassets */; };
 		9D62915124A43BE100D7A626 /* AbortionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62915024A43BE100D7A626 /* AbortionViewController.swift */; };
 		9D62915324A43BF700D7A626 /* AbortionPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62915224A43BF700D7A626 /* AbortionPopUpViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A2A672D24A52E1E00F59DE7 /* votingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votingViewController.swift; sourceTree = "<group>"; };
 		7A93BDBD24A3D4F80010DF22 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9D62915024A43BE100D7A626 /* AbortionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionViewController.swift; sourceTree = "<group>"; };
 		9D62915224A43BF700D7A626 /* AbortionPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionPopUpViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				9DE2E6B024A3F830006D1945 /* GCViewController.swift */,
 				9DE768FC24A2AE5400BF94E3 /* ViewController.swift */,
 				9DE7692324A3982300BF94E3 /* MCDropCell.swift */,
+				7A2A672D24A52E1E00F59DE7 /* votingViewController.swift */,
 				7A93BDBD24A3D4F80010DF22 /* Media.xcassets */,
 				9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */,
 				9DE7690924A2AE5700BF94E3 /* Info.plist */,
@@ -205,6 +208,7 @@
 				9DE2E6B924A4014E006D1945 /* EducationViewController.swift in Sources */,
 				9DACD7DD24A4267F00AE1CBF /* EconomyPopUpViewController.swift in Sources */,
 				9D62915324A43BF700D7A626 /* AbortionPopUpViewController.swift in Sources */,
+				7A2A672E24A52E1E00F59DE7 /* votingViewController.swift in Sources */,
 				9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */,
 				9DACD7D324A41A3D00AE1CBF /* LGBTQViewController.swift in Sources */,
 				9D62915124A43BE100D7A626 /* AbortionViewController.swift in Sources */,

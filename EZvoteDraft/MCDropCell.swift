@@ -19,7 +19,8 @@ class MCDropCell: UITableViewCell {
     
     fileprivate let title: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18, weight: .bold)
+        //label.font = UIFont.systemFont(ofSize: 18, weight: .bold)
+        label.font = UIFont(name: "Avenir", size: 18)
         label.text = "hmm course title here"
         label.textColor = .white
         label.textAlignment = .center
@@ -30,7 +31,8 @@ class MCDropCell: UITableViewCell {
     
     fileprivate let url: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+       // label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        label.font = UIFont(name: "Avenir", size: 18)
         label.text = "pro ios course at maxcodes.io/courses"
         label.textColor = .white
         label.numberOfLines = -1
