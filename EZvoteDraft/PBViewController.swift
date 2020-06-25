@@ -53,8 +53,8 @@ class PBViewController: UIViewController {
  
          //edit words for health care here
          let data = [
-                 MCDropData(title: "Biden's View", url: "•Biden claims that President Trump is part of the issue of racism in our country. •He claims this division of races is one that he will seek to fix. •Biden called for police reforms, including a national ban on choke holds to disable a suspect."),
-                 MCDropData(title: "Trump's View", url: "•Trump feels that as a country we have to work together to confront bigotry and prejudice wherever they appear. •But we'll make no progress and heal no wounds by falsely labelling tens of millions of decent Americans as racist or bigots. Trump claims  that we must invest more energy and resources in police training and recruiting and community engagement. We have to respect our police.")
+                 MCDropData(title: "Biden's View", url: "• Biden claims that President Trump is part of the issue of racism in our country. \n • He claims this division of races is one that he will seek to fix.\n• Biden called for police reforms, including a national ban on choke holds to disable a suspect."),
+                 MCDropData(title: "Trump's View", url: "• Trump feels that as a country we have to work together to confront bigotry and prejudice wherever they appear.\n • But we'll make no progress and heal no wounds by falsely labelling tens of millions of decent Americans as racist or bigots.")
 
              ]
              
@@ -69,7 +69,7 @@ class PBViewController: UIViewController {
          extension PBViewController: UITableViewDelegate, UITableViewDataSource {
              
              func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                 if selectedIndex == indexPath { return 200 }
+                 if selectedIndex == indexPath { return 350 }
                  return 60
              }
              

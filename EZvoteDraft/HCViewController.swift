@@ -52,8 +52,8 @@ class HCViewController: UIViewController {
     
          //edit words for health care here
          let data = [
-                 MCDropData(title: "Biden's View", url: "•Very pro the Affordable Care Act, which created Obamacare. •Plans to create a new Medicare-like public option that revolves around said Act. •Every American should be able to have the comfort of knowing they have affordable and quality healthcare."),
-                 MCDropData(title: "Trump's View", url: "• During his term, Trump has increased the availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. •The Administration’s expansion of Health Reimbursement Arrangements plan to give millions of Americans more options to select a health plan that meets their needs.")
+                 MCDropData(title: "Biden's View", url: "• Stop surprise billing \n• Prescription drug reform \n •Plans to create a new Medicare-like public option that revolves around said Act. \n • Every American should be able to have the comfort of knowing they have affordable and quality healthcare. \n"),
+                 MCDropData(title: "Trump's View", url: "• During his term, Trump has increased the availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. \n •The Administration’s expansion plans to give millions of Americans more options to select a health plan that meets their need.")
              ]
              
              var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -67,7 +67,7 @@ class HCViewController: UIViewController {
          extension HCViewController: UITableViewDelegate, UITableViewDataSource {
              
              func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                 if selectedIndex == indexPath { return 200 }
+                 if selectedIndex == indexPath { return 350 }
                  return 60
              }
              

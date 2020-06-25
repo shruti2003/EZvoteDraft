@@ -67,7 +67,7 @@ class MCDropCell: UITableViewCell {
         url.topAnchor.constraint(equalTo: title.bottomAnchor).isActive = true
         url.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 4).isActive = true
         url.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -4).isActive = true
-        url.heightAnchor.constraint(equalToConstant: 140).isActive = true
+        url.heightAnchor.constraint(equalToConstant: 275).isActive = true
         
     }
     

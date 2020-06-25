@@ -54,8 +54,8 @@ class ImmigrationViewController: UIViewController {
             }
             
             let data = [
-                MCDropData(title: "Biden's View", url: "• Implement effective border screening • Reassert America’s commitment to asylum seekers and refugees • Ensure that Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP) personnel abide by professional standards and are held accountable for inhumane treatment.• Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will explore all legal options to protect their families from inhumane separation."),
-                MCDropData(title: "Trump's View", url: "• Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants • Suppors endinging chain migration, eliminatuing the VISA lottery in which immigrants can enter the United States through a “lottery” • Moved the country to a merit-based entry system")
+                MCDropData(title: "Biden's View", url: "• Implement effective border screening \n • Reassert America’s commitment to asylum seekers and refugees \n • Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will protect their families from inhumane separation."),
+                MCDropData(title: "Trump's View", url: "\n • Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants \n • Suppors endinging chain migration, eliminatuing the VISA lottery in which immigrants can enter the United States through a “lottery” \n • Moved the country to a merit-based entry system")
             ]
             
             var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -73,7 +73,7 @@ class ImmigrationViewController: UIViewController {
     extension ImmigrationViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            if selectedIndex == indexPath { return 200 }
+            if selectedIndex == indexPath { return 350 }
             return 60
         }
         

@@ -53,8 +53,8 @@ class LGBTQViewController: UIViewController {
      
           //edit words for health care here
           let data = [
-                  MCDropData(title: "Biden's View", url: "•2012 shift to support of gay marriage rights • General supporter of LGBT+ rights • Will make the Equality Act a priority in his first 100 days in office"),
-                  MCDropData(title: "Trump's View", url: "•Against transgender troops •June 2020 ruling revoked transgender protections in healthcare • Generally appeases evangelical supporters on LGBT issues •Opposes the equality act")
+                  MCDropData(title: "Biden's View", url: "• 2012 shift to support of gay marriage rights \n • General supporter of LGBT+ rights \n • Will make the Equality Act a priority in his first 100 days in office"),
+                  MCDropData(title: "Trump's View", url: "• Against transgender troops \n • June 2020 ruling revoked transgender protections in healthcare \n • Generally appeases evangelical supporters on LGBT issues •Opposes the equality act")
               ]
               
               var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -68,7 +68,7 @@ class LGBTQViewController: UIViewController {
           extension LGBTQViewController: UITableViewDelegate, UITableViewDataSource {
               
               func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                  if selectedIndex == indexPath { return 200 }
+                  if selectedIndex == indexPath { return 350 }
                   return 60
               }
               
