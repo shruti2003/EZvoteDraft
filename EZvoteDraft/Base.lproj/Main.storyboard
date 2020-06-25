@@ -1804,10 +1804,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="6947.826086956522" y="-581.25"/>
         </scene>
-        <!--View Controller-->
+        <!--Voting View Controller-->
         <scene sceneID="hJz-tp-QbG">
             <objects>
-                <viewController id="hGw-e3-eyF" sceneMemberID="viewController">
+                <viewController id="hGw-e3-eyF" customClass="votingViewController" customModule="EZvoteDraft" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UYj-db-Ya7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1880,7 +1880,7 @@ Cg
                     </items>
                 </navigationBar>
             </objects>
-            <point key="canvasLocation" x="-752.17391304347836" y="910.71428571428567"/>
+            <point key="canvasLocation" x="-752" y="910"/>
         </scene>
         <!--Abortion View Controller-->
         <scene sceneID="brm-qi-ZuJ">

@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         setUpTableView()
 
     }
+
+    
+    
     
     fileprivate func setUpTableView(){
         view.addSubview(tableView)
