@@ -56,8 +56,8 @@ class AbortionViewController: UIViewController {
             
         
         let data = [
-            MCDropData(title: "Biden's View", url: "• Donald Trump imposed a sweeping new policy that restricts access to safe abortion services for women worldwide. \n • Restoring federal funding for Planned Parenthood, including through Medicaid and Title X \n •no longer supports the Hyde Amendment"),
-            MCDropData(title: "Trump's View", url: "• Vows to stand with anti-abortion activists \n • Promise to appoint “pro-life judges” in the Supreme Court \n • Trump said abortion should be outlawed and women who have abortions should face consequences. ")
+            MCDropData(title: "Biden's View", url: "• Donald Trump imposed a sweeping new policy that restricts access to safe abortion services for women worldwide. • Restoring federal funding for Planned Parenthood, including through Medicaid and Title X"),
+            MCDropData(title: "Trump's View", url: "• Vows to stand with anti-abortion activists • Promise to appoint “pro-life judges” in the Supreme Court ")
                 ]
         
         var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -70,7 +70,7 @@ class AbortionViewController: UIViewController {
     extension AbortionViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            if selectedIndex == indexPath { return 350 }
+            if selectedIndex == indexPath { return 200 }
             return 60
         }
         

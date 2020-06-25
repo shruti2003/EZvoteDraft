@@ -1,5 +1,5 @@
 //
-//  AbortionViewController.swift
+//  ImmigrationViewController.swift
 //  EZvoteDraft
 //
 //  Created by shruti on 6/24/20.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class AbortionViewController: UIViewController {
-
+class ImmigrationViewController: UIViewController {
+        @IBOutlet weak var definitionButton: UIButton!
         
         let tableView:UITableView = {
             let tb = UITableView()
@@ -21,7 +21,7 @@ class AbortionViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
-                
+            
            // definitionButton.layer.cornerRadius = 10.0
             
             setUpTableView()
@@ -44,33 +44,36 @@ class AbortionViewController: UIViewController {
         }
 
 
-    @IBAction func showAbortion(_ sender: Any) {
-        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Abortion") as! AbortionPopUpViewController
+    @IBAction func showImmigration(_ sender: Any) {
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "immigration") as! ImmigrationPopUpViewController
+                
+                self.addChild(popOverVC)
+                popOverVC.view.frame = self.view.frame
+                self.view.addSubview(popOverVC.view)
+                popOverVC.didMove(toParent: self)
+            }
             
-            self.addChild(popOverVC)
-            popOverVC.view.frame = self.view.frame
-            self.view.addSubview(popOverVC.view)
-            popOverVC.didMove(toParent: self)
+            let data = [
+                MCDropData(title: "Biden's View", url: "• Implement effective border screening • Reassert America’s commitment to asylum seekers and refugees • Ensure that Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP) personnel abide by professional standards and are held accountable for inhumane treatment.• Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will explore all legal options to protect their families from inhumane separation."),
+                MCDropData(title: "Trump's View", url: "• Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants • Suppors endinging chain migration, eliminatuing the VISA lottery in which immigrants can enter the United States through a “lottery” • Moved the country to a merit-based entry system")
+            ]
+            
+            var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
+
+
         }
-        
+
+
+    
+   
             
-        
-        let data = [
-            MCDropData(title: "Biden's View", url: "• Donald Trump imposed a sweeping new policy that restricts access to safe abortion services for women worldwide. \n • Restoring federal funding for Planned Parenthood, including through Medicaid and Title X \n •no longer supports the Hyde Amendment"),
-            MCDropData(title: "Trump's View", url: "• Vows to stand with anti-abortion activists \n • Promise to appoint “pro-life judges” in the Supreme Court \n • Trump said abortion should be outlawed and women who have abortions should face consequences. ")
-                ]
-        
-        var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
+   
 
 
-    }
-
-
-
-    extension AbortionViewController: UITableViewDelegate, UITableViewDataSource {
+    extension ImmigrationViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            if selectedIndex == indexPath { return 350 }
+            if selectedIndex == indexPath { return 200 }
             return 60
         }
         

@@ -1,5 +1,5 @@
 //
-//  LGBTQViewController.swift
+//  AborViewController.swift
 //  EZvoteDraft
 //
 //  Created by shruti on 6/24/20.
@@ -8,7 +8,8 @@
 
 import UIKit
 
-class LGBTQViewController: UIViewController {
+class AborViewController: UIViewController {
+
     let tableView:UITableView = {
               let tb = UITableView()
               tb.translatesAutoresizingMaskIntoConstraints = false
@@ -40,55 +41,57 @@ class LGBTQViewController: UIViewController {
 
           }
           
-      
-    @IBAction func startLGBTQ(_ sender: Any) {
-        let gcPopUp = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "LGBTQ+") as! LGBTQPopUpViewController
-        
-        self.addChild(gcPopUp)
-        gcPopUp.view.frame = self.view.frame
-        self.view.addSubview(gcPopUp.view)
-        gcPopUp.didMove(toParent: self)
-    }
+       
   
-     
-          //edit words for health care here
-          let data = [
-                  MCDropData(title: "Biden's View", url: "• 2012 shift to support of gay marriage rights \n • General supporter of LGBT+ rights \n • Will make the Equality Act a priority in his first 100 days in office \n• Joe Biden believes that every human being should be treated with respect and dignity and be able to live without fear"),
-                  MCDropData(title: "Trump's View", url: "• Against transgender troops \n • June 2020 ruling revoked transgender protections in healthcare \n • Generally appeases evangelical supporters on LGBT issues \n• Opposes the equality act\n• Avoids commenting on LGBTQ issues")
+        @IBAction func showAbortion(_ sender: Any) {
+            let gcPopUp = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "AbortionPopID") as! AborPopUpViewController
+            
+            self.addChild(gcPopUp)
+                                                      gcPopUp.view.frame = self.view.frame
+                                                      self.view.addSubview(gcPopUp.view)
+                                                      gcPopUp.didMove(toParent: self)
+                         
+            }
+        }
+        
+                                                              
+        
+          //edit words for education here
+          let abortdata = [
+                  MCDropData(title: "Biden's View", url: "•Provide two years of community college tuition-free for hard-working students. •Make public colleges and universities tuition-free for all families with incomes below $125,000."),
+                  MCDropData(title: "Trump's View", url: "• Promotes a concealed carry permit • Believes that the government should not control what type of firearms citizens should have access to • Emphasis on Mental Health for background checks")
               ]
               
-              var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
+              var selectedAbortIndex: IndexPath = IndexPath(row: 0, section: 0)
 
-
-          }
 
         
 
 
-          extension LGBTQViewController: UITableViewDelegate, UITableViewDataSource {
+          extension AborViewController: UITableViewDelegate, UITableViewDataSource {
               
               func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                  if selectedIndex == indexPath { return 350 }
+                  if selectedAbortIndex == indexPath { return 200 }
                   return 60
               }
               
               func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-                  return data.count
+                  return abortdata.count
               }
               
               func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
                   let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MCDropCell
-                  cell.data = data[indexPath.row]
+                  cell.data = abortdata[indexPath.row]
                   cell.selectionStyle = .none
                   cell.animate()
                   return cell
               }
               
               func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-                  selectedIndex = indexPath
+                  selectedAbortIndex = indexPath
                   
                   tableView.beginUpdates()
-                  tableView.reloadRows(at: [selectedIndex], with: .none)
+                  tableView.reloadRows(at: [selectedAbortIndex], with: .none)
                   tableView.endUpdates()
               }
               
