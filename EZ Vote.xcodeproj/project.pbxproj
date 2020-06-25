@@ -56,7 +56,7 @@
 		9DE2E6C624A41158006D1945 /* PBPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopUpViewController.swift; sourceTree = "<group>"; };
 		9DE2E6CC24A414DC006D1945 /* ImmigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationViewController.swift; sourceTree = "<group>"; };
 		9DE2E6CE24A414EF006D1945 /* ImmigrationPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationPopUpViewController.swift; sourceTree = "<group>"; };
-		9DE768F524A2AE5400BF94E3 /* EZvoteDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZvoteDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE768F524A2AE5400BF94E3 /* EZ Vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Vote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DE768FC24A2AE5400BF94E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		9DE768F624A2AE5400BF94E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DE768F524A2AE5400BF94E3 /* EZvoteDraft.app */,
+				9DE768F524A2AE5400BF94E3 /* EZ Vote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DE768F424A2AE5400BF94E3 /* EZvoteDraft */ = {
+		9DE768F424A2AE5400BF94E3 /* EZ Vote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DE7690C24A2AE5700BF94E3 /* Build configuration list for PBXNativeTarget "EZvoteDraft" */;
+			buildConfigurationList = 9DE7690C24A2AE5700BF94E3 /* Build configuration list for PBXNativeTarget "EZ Vote" */;
 			buildPhases = (
 				9DE768F124A2AE5400BF94E3 /* Sources */,
 				9DE768F224A2AE5400BF94E3 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = EZvoteDraft;
+			name = "EZ Vote";
 			productName = EZvoteDraft;
-			productReference = 9DE768F524A2AE5400BF94E3 /* EZvoteDraft.app */;
+			productReference = 9DE768F524A2AE5400BF94E3 /* EZ Vote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DE768F024A2AE5300BF94E3 /* Build configuration list for PBXProject "EZvoteDraft" */;
+			buildConfigurationList = 9DE768F024A2AE5300BF94E3 /* Build configuration list for PBXProject "EZ Vote" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DE768F424A2AE5400BF94E3 /* EZvoteDraft */,
+				9DE768F424A2AE5400BF94E3 /* EZ Vote */,
 			);
 		};
 /* End PBXProject section */
@@ -374,8 +374,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shruti-Patel.EZvoteDraft";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shruti-Patel.EZ-Vote";
+				PRODUCT_NAME = "EZ Vote";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -391,8 +391,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shruti-Patel.EZvoteDraft";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shruti-Patel.EZ-Vote";
+				PRODUCT_NAME = "EZ Vote";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DE768F024A2AE5300BF94E3 /* Build configuration list for PBXProject "EZvoteDraft" */ = {
+		9DE768F024A2AE5300BF94E3 /* Build configuration list for PBXProject "EZ Vote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DE7690A24A2AE5700BF94E3 /* Debug */,
@@ -410,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DE7690C24A2AE5700BF94E3 /* Build configuration list for PBXNativeTarget "EZvoteDraft" */ = {
+		9DE7690C24A2AE5700BF94E3 /* Build configuration list for PBXNativeTarget "EZ Vote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DE7690D24A2AE5700BF94E3 /* Debug */,
