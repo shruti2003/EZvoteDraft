@@ -8,7 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7A93BDBE24A3D4F80010DF22 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A93BDBD24A3D4F80010DF22 /* Media.xcassets */; };
-		7A93BDC024A3EBBB0010DF22 /* Open_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 7A93BDBF24A3EBBB0010DF22 /* Open_Sans */; };
+		9D62915124A43BE100D7A626 /* AbortionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62915024A43BE100D7A626 /* AbortionViewController.swift */; };
+		9D62915324A43BF700D7A626 /* AbortionPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62915224A43BF700D7A626 /* AbortionPopUpViewController.swift */; };
+		9DACD7D324A41A3D00AE1CBF /* LGBTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD7D224A41A3D00AE1CBF /* LGBTQViewController.swift */; };
+		9DACD7D524A41A5200AE1CBF /* LGBTQPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD7D424A41A5200AE1CBF /* LGBTQPopUpViewController.swift */; };
+		9DACD7DB24A4265B00AE1CBF /* EconomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD7DA24A4265B00AE1CBF /* EconomyViewController.swift */; };
+		9DACD7DD24A4267F00AE1CBF /* EconomyPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD7DC24A4267F00AE1CBF /* EconomyPopUpViewController.swift */; };
+		9DE2E6A924A3F28C006D1945 /* Open_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2E6A824A3F28C006D1945 /* Open_Sans */; };
+		9DE2E6B124A3F830006D1945 /* GCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6B024A3F830006D1945 /* GCViewController.swift */; };
+		9DE2E6B324A3F8F7006D1945 /* GCPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6B224A3F8F7006D1945 /* GCPopUpViewController.swift */; };
+		9DE2E6B924A4014E006D1945 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6B824A4014E006D1945 /* EducationViewController.swift */; };
+		9DE2E6BB24A40162006D1945 /* educationPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6BA24A40162006D1945 /* educationPopUpViewController.swift */; };
+		9DE2E6C124A40EC6006D1945 /* HCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6C024A40EC6006D1945 /* HCViewController.swift */; };
+		9DE2E6C324A40ED5006D1945 /* HCPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6C224A40ED5006D1945 /* HCPopUpViewController.swift */; };
+		9DE2E6C524A4114A006D1945 /* PBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6C424A4114A006D1945 /* PBViewController.swift */; };
+		9DE2E6C724A41158006D1945 /* PBPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6C624A41158006D1945 /* PBPopUpViewController.swift */; };
+		9DE2E6CD24A414DC006D1945 /* ImmigrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6CC24A414DC006D1945 /* ImmigrationViewController.swift */; };
+		9DE2E6CF24A414EF006D1945 /* ImmigrationPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6CE24A414EF006D1945 /* ImmigrationPopUpViewController.swift */; };
 		9DE768F924A2AE5400BF94E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */; };
 		9DE768FB24A2AE5400BF94E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */; };
 		9DE768FD24A2AE5400BF94E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE768FC24A2AE5400BF94E3 /* ViewController.swift */; };
@@ -17,12 +33,27 @@
 		9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */; };
 		9DE7692424A3982300BF94E3 /* MCDropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692324A3982300BF94E3 /* MCDropCell.swift */; };
 		9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */; };
-		9DE7693824A3BD8700BF94E3 /* PopUpSourceCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A93BDBD24A3D4F80010DF22 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		7A93BDBF24A3EBBB0010DF22 /* Open_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Open_Sans; path = ../../../Downloads/Open_Sans; sourceTree = "<group>"; };
+		9D62915024A43BE100D7A626 /* AbortionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionViewController.swift; sourceTree = "<group>"; };
+		9D62915224A43BF700D7A626 /* AbortionPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionPopUpViewController.swift; sourceTree = "<group>"; };
+		9DACD7D224A41A3D00AE1CBF /* LGBTQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQViewController.swift; sourceTree = "<group>"; };
+		9DACD7D424A41A5200AE1CBF /* LGBTQPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQPopUpViewController.swift; sourceTree = "<group>"; };
+		9DACD7DA24A4265B00AE1CBF /* EconomyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomyViewController.swift; sourceTree = "<group>"; };
+		9DACD7DC24A4267F00AE1CBF /* EconomyPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomyPopUpViewController.swift; sourceTree = "<group>"; };
+		9DE2E6A824A3F28C006D1945 /* Open_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Open_Sans; sourceTree = "<group>"; };
+		9DE2E6B024A3F830006D1945 /* GCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCViewController.swift; sourceTree = "<group>"; };
+		9DE2E6B224A3F8F7006D1945 /* GCPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCPopUpViewController.swift; sourceTree = "<group>"; };
+		9DE2E6B824A4014E006D1945 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		9DE2E6BA24A40162006D1945 /* educationPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationPopUpViewController.swift; sourceTree = "<group>"; };
+		9DE2E6C024A40EC6006D1945 /* HCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCViewController.swift; sourceTree = "<group>"; };
+		9DE2E6C224A40ED5006D1945 /* HCPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPopUpViewController.swift; sourceTree = "<group>"; };
+		9DE2E6C424A4114A006D1945 /* PBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBViewController.swift; sourceTree = "<group>"; };
+		9DE2E6C624A41158006D1945 /* PBPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopUpViewController.swift; sourceTree = "<group>"; };
+		9DE2E6CC24A414DC006D1945 /* ImmigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationViewController.swift; sourceTree = "<group>"; };
+		9DE2E6CE24A414EF006D1945 /* ImmigrationPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationPopUpViewController.swift; sourceTree = "<group>"; };
 		9DE768F524A2AE5400BF94E3 /* EZvoteDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZvoteDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +64,6 @@
 		9DE7690924A2AE5700BF94E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DE7692324A3982300BF94E3 /* MCDropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCDropCell.swift; sourceTree = "<group>"; };
 		9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
-		9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSourceCCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +98,31 @@
 			children = (
 				9DE768F824A2AE5400BF94E3 /* AppDelegate.swift */,
 				9DE7692B24A3A9EA00BF94E3 /* PopUpViewController.swift */,
-				9DE7693724A3BD8700BF94E3 /* PopUpSourceCCViewController.swift */,
 				9DE768FA24A2AE5400BF94E3 /* SceneDelegate.swift */,
 				9DE768FE24A2AE5400BF94E3 /* Main.storyboard */,
+				9D62915024A43BE100D7A626 /* AbortionViewController.swift */,
+				9D62915224A43BF700D7A626 /* AbortionPopUpViewController.swift */,
+				9DACD7D224A41A3D00AE1CBF /* LGBTQViewController.swift */,
+				9DACD7D424A41A5200AE1CBF /* LGBTQPopUpViewController.swift */,
+				9DE2E6CC24A414DC006D1945 /* ImmigrationViewController.swift */,
+				9DACD7DA24A4265B00AE1CBF /* EconomyViewController.swift */,
+				9DACD7DC24A4267F00AE1CBF /* EconomyPopUpViewController.swift */,
+				9DE2E6CE24A414EF006D1945 /* ImmigrationPopUpViewController.swift */,
+				9DE2E6C424A4114A006D1945 /* PBViewController.swift */,
+				9DE2E6C624A41158006D1945 /* PBPopUpViewController.swift */,
+				9DE2E6C024A40EC6006D1945 /* HCViewController.swift */,
+				9DE2E6C224A40ED5006D1945 /* HCPopUpViewController.swift */,
+				9DE2E6B824A4014E006D1945 /* EducationViewController.swift */,
+				9DE2E6BA24A40162006D1945 /* educationPopUpViewController.swift */,
+				9DE2E6B224A3F8F7006D1945 /* GCPopUpViewController.swift */,
+				9DE2E6B024A3F830006D1945 /* GCViewController.swift */,
 				9DE768FC24A2AE5400BF94E3 /* ViewController.swift */,
 				9DE7692324A3982300BF94E3 /* MCDropCell.swift */,
 				7A93BDBD24A3D4F80010DF22 /* Media.xcassets */,
 				9DE7690624A2AE5700BF94E3 /* LaunchScreen.storyboard */,
 				9DE7690924A2AE5700BF94E3 /* Info.plist */,
 				9DE7690124A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld */,
-				7A93BDBF24A3EBBB0010DF22 /* Open_Sans */,
+				9DE2E6A824A3F28C006D1945 /* Open_Sans */,
 			);
 			path = EZvoteDraft;
 			sourceTree = "<group>";
@@ -142,7 +187,7 @@
 			files = (
 				9DE7690824A2AE5700BF94E3 /* LaunchScreen.storyboard in Resources */,
 				7A93BDBE24A3D4F80010DF22 /* Media.xcassets in Resources */,
-				7A93BDC024A3EBBB0010DF22 /* Open_Sans in Resources */,
+				9DE2E6A924A3F28C006D1945 /* Open_Sans in Resources */,
 				9DE7690024A2AE5400BF94E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,12 +199,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE7693824A3BD8700BF94E3 /* PopUpSourceCCViewController.swift in Sources */,
+				9DE2E6C124A40EC6006D1945 /* HCViewController.swift in Sources */,
 				9DE768FD24A2AE5400BF94E3 /* ViewController.swift in Sources */,
+				9DE2E6CF24A414EF006D1945 /* ImmigrationPopUpViewController.swift in Sources */,
+				9DE2E6B924A4014E006D1945 /* EducationViewController.swift in Sources */,
+				9DACD7DD24A4267F00AE1CBF /* EconomyPopUpViewController.swift in Sources */,
+				9D62915324A43BF700D7A626 /* AbortionPopUpViewController.swift in Sources */,
 				9DE7692C24A3A9EA00BF94E3 /* PopUpViewController.swift in Sources */,
+				9DACD7D324A41A3D00AE1CBF /* LGBTQViewController.swift in Sources */,
+				9D62915124A43BE100D7A626 /* AbortionViewController.swift in Sources */,
+				9DE2E6B124A3F830006D1945 /* GCViewController.swift in Sources */,
+				9DE2E6BB24A40162006D1945 /* educationPopUpViewController.swift in Sources */,
+				9DE2E6C524A4114A006D1945 /* PBViewController.swift in Sources */,
+				9DACD7D524A41A5200AE1CBF /* LGBTQPopUpViewController.swift in Sources */,
+				9DE2E6B324A3F8F7006D1945 /* GCPopUpViewController.swift in Sources */,
 				9DE7692424A3982300BF94E3 /* MCDropCell.swift in Sources */,
 				9DE768F924A2AE5400BF94E3 /* AppDelegate.swift in Sources */,
+				9DACD7DB24A4265B00AE1CBF /* EconomyViewController.swift in Sources */,
+				9DE2E6C724A41158006D1945 /* PBPopUpViewController.swift in Sources */,
+				9DE2E6C324A40ED5006D1945 /* HCPopUpViewController.swift in Sources */,
 				9DE7690324A2AE5400BF94E3 /* EZvoteDraft.xcdatamodeld in Sources */,
+				9DE2E6CD24A414DC006D1945 /* ImmigrationViewController.swift in Sources */,
 				9DE768FB24A2AE5400BF94E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
