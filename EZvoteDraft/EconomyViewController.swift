@@ -61,7 +61,7 @@ class EconomyViewController: UIViewController {
          //edit words for education here
          let data = [
                  MCDropData(title: "Biden's View", url: "• The plan includes requirements that businesses tailor workplace arrangements for employees in high-risk groups, funding for small businesses to help rehire employees.\n • Ensure all workers, in all communities, have access to effective personal protective equipment."),
-                 MCDropData(title: "Trump's View", url: "• Trump has planned a three-phased approach to reopen the economy. Phase one is individuals that are high-risk should continue to shelter in place. Phase two is for individuals to continue to shelter in place however social settings can restart. Phase three suggest that indivusals can resume public interactions.")
+                 MCDropData(title: "Trump's View", url: "• Trump has planned a three-phased approach to reopen the economy. Phase one is individuals that are high-risk should continue to shelter in place. Phase two is for individuals to continue to shelter in place however social settings can restart. Phase three suggest reopening of America.")
              ]
              
              var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
