@@ -54,8 +54,8 @@ class ImmigrationViewController: UIViewController {
             }
             
             let data = [
-                MCDropData(title: "Biden's View", url: "• Implement effective border screening \n • Reassert America’s commitment to asylum seekers and refugees \n • Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will protect their families from inhumane separation."),
-                MCDropData(title: "Trump's View", url: "\n • Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants \n • Suppors endinging chain migration, eliminatuing the VISA lottery in which immigrants can enter the United States through a “lottery” \n • Moved the country to a merit-based entry system")
+                MCDropData(title: "Biden's View", url: "• Implement effective border screening \n • Reassert America’s commitment to asylum seekers and refugees \n • Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will protect their families"),
+                MCDropData(title: "Trump's View", url: "\n • Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants \n • Supports ending chain migration and eliminating the VISA lottery which is a lottery system to enter the US")
             ]
             
             var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
