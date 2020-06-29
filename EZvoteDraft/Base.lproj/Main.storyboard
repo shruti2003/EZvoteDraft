@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACG-Gd-DKC">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACG-Gd-DKC">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -133,7 +133,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the Screen to Continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA3-fj-Hvs">
-                                <rect key="frame" x="50" y="484.5" width="314" height="27.5"/>
+                                <rect key="frame" x="50" y="484.66666666666669" width="314" height="27.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27.5" id="SAn-ax-97e"/>
                                 </constraints>
@@ -187,178 +187,207 @@
         <scene sceneID="c9m-df-7qR">
             <objects>
                 <viewController id="wUD-pM-dmd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8YP-o0-vfi">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8YP-o0-vfi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What issues are meaningful to you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
-                                <rect key="frame" x="59" y="20" width="316" height="68.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What issues are meaningful to you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
+                                <rect key="frame" x="60" y="20" width="294" height="106"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="314" id="8qg-AK-f7d"/>
-                                    <constraint firstAttribute="width" secondItem="RT5-bN-mvk" secondAttribute="height" multiplier="157:34" id="aJk-VX-Oeq"/>
-                                    <constraint firstAttribute="height" constant="68.5" id="uiF-B3-gYg"/>
+                                    <constraint firstAttribute="height" constant="106" id="bkv-3o-2FR"/>
+                                    <constraint firstAttribute="width" constant="294" id="fO2-Rx-C1f"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-L1-1fW">
-                                <rect key="frame" x="279" y="155" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Immigration"/>
-                                <connections>
-                                    <segue destination="G2D-uR-Mli" kind="show" id="pLN-rG-w2M"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Economy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXc-fc-f1b">
-                                <rect key="frame" x="301" y="422" width="71" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gun Control" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ek-7f-jwm">
-                                <rect key="frame" x="290" y="575" width="94" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-G0-COr">
-                                <rect key="frame" x="279" y="452" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gun Control"/>
-                                <connections>
-                                    <segue destination="2O7-gF-rIz" kind="show" id="pPp-Gc-ZTS"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-Wx-UhK">
-                                <rect key="frame" x="291" y="271" width="92" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4L-3a-O67">
-                                <rect key="frame" x="279" y="304" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Economy"/>
-                                <connections>
-                                    <segue destination="aQT-o2-rvS" kind="show" id="RJB-K1-MhI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-Zt-Vp7">
-                                <rect key="frame" x="156" y="454" width="114.99999999999997" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Health Care"/>
-                                <connections>
-                                    <segue destination="fjz-Wd-x9t" kind="show" id="Bjn-Xs-QkT"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Healthcare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-WT-xcO">
-                                <rect key="frame" x="177" y="575" width="82" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-Gn-GhQ">
-                                <rect key="frame" x="156" y="157" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Education"/>
-                                <connections>
-                                    <segue destination="iL2-GV-aKz" kind="show" id="W6i-OY-LGp"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOy-2A-fB0">
-                                <rect key="frame" x="180" y="264" width="77" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9H-eh-MNS">
-                                <rect key="frame" x="156" y="304" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Climate Change"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="XEH-Bi-A4p"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-kP-GmM">
-                                <rect key="frame" x="184" y="422" width="59" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-do-lta">
-                                <rect key="frame" x="16" y="452" width="115" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Police Brutality"/>
-                                <connections>
-                                    <segue destination="s9b-vf-SuD" kind="show" id="Qaa-IE-4AQ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abortion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QU-Ne-x0A">
-                                <rect key="frame" x="47" y="422" width="68" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Police Brutality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndL-TU-PPw">
-                                <rect key="frame" x="23" y="575" width="113" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQ+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vW-f2-fIF">
-                                <rect key="frame" x="44" y="271" width="77" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njr-Wn-3Ic">
-                                <rect key="frame" x="60" y="661" width="295" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njr-Wn-3Ic">
+                                <rect key="frame" x="41" y="636" width="333" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="Q3W-IH-H3I"/>
+                                    <constraint firstAttribute="height" constant="157" id="hnU-yC-U2u"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="voteIcon"/>
                                 <connections>
                                     <segue destination="hGw-e3-eyF" kind="show" id="ZWB-LR-XJV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr">
-                                <rect key="frame" x="24" y="155" width="115" height="115"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EOT-xK-LyO">
+                                <rect key="frame" x="10" y="94" width="395" height="487"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-L1-1fW">
+                                        <rect key="frame" x="269" y="21" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Immigration"/>
+                                        <connections>
+                                            <segue destination="G2D-uR-Mli" kind="show" id="pLN-rG-w2M"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv">
+                                        <rect key="frame" x="20" y="170" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Abortion"/>
+                                        <connections>
+                                            <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-Gn-GhQ">
+                                        <rect key="frame" x="146" y="20" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Education"/>
+                                        <connections>
+                                            <segue destination="iL2-GV-aKz" kind="show" id="W6i-OY-LGp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4X-o1-44s">
+                                        <rect key="frame" x="126" y="272" width="442" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="946" id="8Rp-sM-19P"/>
+                                            <constraint firstAttribute="width" constant="442" id="mQd-AG-sid"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="17"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closeGC:" destination="xt8-0M-hhb" eventType="touchUpInside" id="ORW-bE-icM"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abortion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QU-Ne-x0A">
+                                        <rect key="frame" x="46" y="287" width="67.333333333333314" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQ+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vW-f2-fIF">
+                                        <rect key="frame" x="41" y="137" width="77" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-kP-GmM">
+                                        <rect key="frame" x="179" y="288" width="58.666666666666657" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-Zt-Vp7">
+                                        <rect key="frame" x="146" y="320" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Health Care"/>
+                                        <connections>
+                                            <segue destination="fjz-Wd-x9t" kind="show" id="Bjn-Xs-QkT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-do-lta">
+                                        <rect key="frame" x="28" y="323" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Police Brutality"/>
+                                        <connections>
+                                            <segue destination="s9b-vf-SuD" kind="show" id="Qaa-IE-4AQ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Police Brutality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndL-TU-PPw">
+                                        <rect key="frame" x="30" y="442" width="113" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-G0-COr">
+                                        <rect key="frame" x="272" y="323" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Gun Control"/>
+                                        <connections>
+                                            <segue destination="2O7-gF-rIz" kind="show" id="pPp-Gc-ZTS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4L-3a-O67">
+                                        <rect key="frame" x="272" y="170" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Economy"/>
+                                        <connections>
+                                            <segue destination="aQT-o2-rvS" kind="show" id="RJB-K1-MhI"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gun Control" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ek-7f-jwm">
+                                        <rect key="frame" x="290" y="443" width="94" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOy-2A-fB0">
+                                        <rect key="frame" x="172" y="138" width="77" height="23.333333333333314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr">
+                                        <rect key="frame" x="20" y="22" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="LGBTQ+"/>
+                                        <connections>
+                                            <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-Wx-UhK">
+                                        <rect key="frame" x="283" y="137" width="92" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Economy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXc-fc-f1b">
+                                        <rect key="frame" x="294" y="288" width="71" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9H-eh-MNS">
+                                        <rect key="frame" x="143" y="170" width="115" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Climate Change"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="XEH-Bi-A4p"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Healthcare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-WT-xcO">
+                                        <rect key="frame" x="162" y="442" width="82" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="P5Y-jV-ixa"/>
-                                    <constraint firstAttribute="width" constant="115" id="Thg-O0-tDD"/>
+                                    <constraint firstAttribute="height" constant="450" id="Oxp-l4-5dF"/>
+                                    <constraint firstAttribute="width" constant="395" id="SaO-2s-Uof"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="LGBTQ+"/>
-                                <connections>
-                                    <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv">
-                                <rect key="frame" x="16" y="304" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Abortion"/>
-                                <connections>
-                                    <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
-                                </connections>
-                            </button>
+                                <viewLayoutGuide key="contentLayoutGuide" id="QW2-8P-1GJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="GY5-Bq-6RZ"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" id="7ea-Is-sia"/>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="9hr-K2-GM0"/>
-                            <constraint firstItem="7DX-Yr-JKr" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-216.5" id="FeO-0r-Uf6"/>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="10" id="Nx0-rn-yOc"/>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="aQN-Tn-rkI"/>
-                            <constraint firstItem="7DX-Yr-JKr" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="-124.5" id="gp0-qY-lir"/>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="iuc-FJ-gPo"/>
-                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="10" id="jTb-vP-W5i"/>
+                            <constraint firstItem="EOT-xK-LyO" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="10" id="3xb-Ku-QXp"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="I0F-bB-SWi" secondAttribute="centerX" id="8SU-pe-4vq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RT5-bN-mvk" secondAttribute="trailing" constant="40" id="ALt-XI-9cG"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="top" secondItem="8YP-o0-vfi" secondAttribute="topMargin" constant="10" id="HZx-Za-poh"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="bottom" secondItem="Njr-Wn-3Ic" secondAttribute="bottom" constant="15" id="W9w-cY-adB"/>
+                            <constraint firstItem="Njr-Wn-3Ic" firstAttribute="top" secondItem="EOT-xK-LyO" secondAttribute="bottom" constant="15" id="a1n-Q8-wZg"/>
+                            <constraint firstItem="EOT-xK-LyO" firstAttribute="centerX" secondItem="I0F-bB-SWi" secondAttribute="centerX" id="dHo-bM-5wG"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="EOT-xK-LyO" secondAttribute="trailing" constant="10" id="eM7-JD-shZ"/>
+                            <constraint firstItem="EOT-xK-LyO" firstAttribute="top" secondItem="RT5-bN-mvk" secondAttribute="bottom" constant="1" id="eOK-k4-fcV"/>
+                            <constraint firstItem="Njr-Wn-3Ic" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="41" id="evs-6W-kw8"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="Njr-Wn-3Ic" secondAttribute="trailing" constant="40" id="jTU-V9-noK"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="leading" secondItem="8YP-o0-vfi" secondAttribute="leadingMargin" constant="40" id="tSG-P3-6ca"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I0F-bB-SWi"/>
                     </view>
@@ -366,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9e-eH-AE7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-756.52173913043487" y="-249.77678571428569"/>
+            <point key="canvasLocation" x="-757.97101449275374" y="-251.11607142857142"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="eiZ-b3-Vop">
@@ -457,21 +486,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4X-o1-44s">
-                                <rect key="frame" x="0.0" y="-15" width="442" height="946"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="946" id="8Rp-sM-19P"/>
-                                    <constraint firstAttribute="width" constant="442" id="mQd-AG-sid"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="17"/>
-                                <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="closeGC:" destination="xt8-0M-hhb" eventType="touchUpInside" id="ORW-bE-icM"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-ye-Lpc">
                                 <rect key="frame" x="75" y="255" width="264" height="386"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -569,8 +583,6 @@ Cg
                         <constraints>
                             <constraint firstItem="QXW-ye-Lpc" firstAttribute="centerY" secondItem="Z5V-xv-SBB" secondAttribute="centerY" id="3P3-pD-eYY"/>
                             <constraint firstItem="QXW-ye-Lpc" firstAttribute="centerX" secondItem="Z5V-xv-SBB" secondAttribute="centerX" id="3ep-5E-WhA"/>
-                            <constraint firstItem="x4X-o1-44s" firstAttribute="centerX" secondItem="Z5V-xv-SBB" secondAttribute="centerX" constant="14" id="LfW-iS-PVU"/>
-                            <constraint firstItem="x4X-o1-44s" firstAttribute="centerY" secondItem="Z5V-xv-SBB" secondAttribute="centerY" constant="10" id="bml-0A-j8s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bam-r4-Yau"/>
                     </view>
@@ -591,7 +603,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cE-IZ-lZL">
-                                <rect key="frame" x="75" y="381.5" width="264" height="133"/>
+                                <rect key="frame" x="75" y="381.66666666666669" width="264" height="133.00000000000006"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="264" id="9vF-qp-bPg"/>
@@ -815,7 +827,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggg-Dr-hBA">
-                                <rect key="frame" x="75" y="201.5" width="264" height="493"/>
+                                <rect key="frame" x="75" y="201.66666666666663" width="264" height="493"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="493" id="BeP-Se-2pt"/>
@@ -1208,7 +1220,7 @@ The sudden shift in sentiment from the Obama administration to the Trump adminis
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Economy" translatesAutoresizingMaskIntoConstraints="NO" id="RM8-EN-kME">
-                                <rect key="frame" x="56.5" y="47" width="301" height="190"/>
+                                <rect key="frame" x="56.666666666666657" y="47" width="301" height="190"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="301" id="KHV-xm-a3g"/>
                                     <constraint firstAttribute="height" constant="190" id="zti-4y-tT2"/>
@@ -1311,7 +1323,7 @@ In late February and early March of 2020, the United States faced a recession du
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gun Control" translatesAutoresizingMaskIntoConstraints="NO" id="Ycs-Zf-5Vt">
-                                <rect key="frame" x="56.5" y="39" width="301" height="190"/>
+                                <rect key="frame" x="56.666666666666657" y="39" width="301" height="190"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="190" id="SHZ-h4-gK5"/>
                                     <constraint firstAttribute="width" constant="301" id="T3f-0A-6Zv"/>
@@ -1446,7 +1458,7 @@ In late February and early March of 2020, the United States faced a recession du
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSe-Cv-0EK">
-                                <rect key="frame" x="144" y="405.5" width="138" height="31"/>
+                                <rect key="frame" x="144" y="405.66666666666669" width="138" height="31"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="P2T-Wm-rUS"/>
@@ -1828,7 +1840,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMn-Ki-MwR">
-                                <rect key="frame" x="-10" y="-33.5" width="459" height="963"/>
+                                <rect key="frame" x="-10" y="-33.666666666666686" width="459" height="963.33333333333348"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="963" id="Lqd-Vq-38Y"/>
                                     <constraint firstAttribute="width" constant="459" id="ogS-Ed-GYC"/>
@@ -1869,7 +1881,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0V-0I-qrM">
-                                <rect key="frame" x="75" y="339.5" width="264" height="217"/>
+                                <rect key="frame" x="75" y="339.66666666666669" width="264" height="217.00000000000006"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="217" id="EfP-nf-RcI"/>
@@ -2472,21 +2484,6 @@ SInce Roe v Wade in 1973, abortion has been a controversial issue in US politics
             </objects>
             <point key="canvasLocation" x="2720" y="185"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="4iS-Tj-eSL">
-            <objects>
-                <viewController id="5fK-Ih-MUm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b8f-dk-t9w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="pMV-lH-1ga"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gtd-yB-xdB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-823" y="-905"/>
-        </scene>
         <!--Storyboard Reference-->
         <scene sceneID="6RF-5Z-Mwp">
             <objects>
@@ -2748,8 +2745,7 @@ Cgo
         <image name="voteIcon" width="1186" height="690"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XEH-Bi-A4p"/>
         <segue reference="ZWB-LR-XJV"/>
-        <segue reference="j5Y-5v-RgT"/>
+        <segue reference="Qlv-JO-br1"/>
     </inferredMetricsTieBreakers>
 </document>
