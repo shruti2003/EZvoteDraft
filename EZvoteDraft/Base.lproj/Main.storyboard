@@ -191,9 +191,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What issues are meaningful to you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
-                                <rect key="frame" x="50" y="20" width="314" height="68.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What issues are meaningful to you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
+                                <rect key="frame" x="59" y="20" width="316" height="68.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="314" id="8qg-AK-f7d"/>
+                                    <constraint firstAttribute="width" secondItem="RT5-bN-mvk" secondAttribute="height" multiplier="157:34" id="aJk-VX-Oeq"/>
+                                    <constraint firstAttribute="height" constant="68.5" id="uiF-B3-gYg"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -288,26 +292,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr">
-                                <rect key="frame" x="25" y="147" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="LGBTQ+">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
-                                </state>
-                                <connections>
-                                    <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv">
-                                <rect key="frame" x="24" y="304" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Abortion"/>
-                                <connections>
-                                    <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-do-lta">
-                                <rect key="frame" x="24" y="454" width="115" height="116"/>
+                                <rect key="frame" x="16" y="452" width="115" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Police Brutality"/>
                                 <connections>
@@ -343,8 +329,37 @@
                                     <segue destination="hGw-e3-eyF" kind="show" id="ZWB-LR-XJV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr">
+                                <rect key="frame" x="24" y="155" width="115" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="P5Y-jV-ixa"/>
+                                    <constraint firstAttribute="width" constant="115" id="Thg-O0-tDD"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="LGBTQ+"/>
+                                <connections>
+                                    <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv">
+                                <rect key="frame" x="16" y="304" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Abortion"/>
+                                <connections>
+                                    <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" id="7ea-Is-sia"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="9hr-K2-GM0"/>
+                            <constraint firstItem="7DX-Yr-JKr" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-216.5" id="FeO-0r-Uf6"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="10" id="Nx0-rn-yOc"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="aQN-Tn-rkI"/>
+                            <constraint firstItem="7DX-Yr-JKr" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="-124.5" id="gp0-qY-lir"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerY" secondItem="8YP-o0-vfi" secondAttribute="centerY" constant="-366.75" id="iuc-FJ-gPo"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="centerX" secondItem="8YP-o0-vfi" secondAttribute="centerX" constant="10" id="jTb-vP-W5i"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="I0F-bB-SWi"/>
                     </view>
                     <navigationItem key="navigationItem" id="gQc-20-Mp1"/>
