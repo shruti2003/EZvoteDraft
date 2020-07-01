@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACG-Gd-DKC">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACG-Gd-DKC">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,17 +17,17 @@
             <objects>
                 <viewController storyboardIdentifier="climateChange" id="BYZ-38-t0r" customClass="ViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Climate Change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2T9-fl-BWj">
-                                <rect key="frame" x="51.5" y="182" width="217" height="40"/>
+                                <rect key="frame" x="79" y="217" width="217" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC4-3J-7E8">
-                                <rect key="frame" x="25" y="224" width="270" height="143.5"/>
+                                <rect key="frame" x="25" y="259" width="325" height="123"/>
                                 <string key="text">Human activities have increased carbon dioxide emissions, driving up temperatures. Extreme weather, sea level rising, and melting polar ice are among the possible effects. This can lead to the depletion of species and potential harm to humans. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -38,7 +38,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCK-jx-ycx">
-                                <rect key="frame" x="95" y="375.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="390" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Wmv-IS-crT"/>
@@ -88,7 +88,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Climate Change" translatesAutoresizingMaskIntoConstraints="NO" id="tCX-K8-ErF">
-                                <rect key="frame" x="50" y="40" width="220" height="140"/>
+                                <rect key="frame" x="50" y="40" width="275" height="175"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tCX-K8-ErF" secondAttribute="height" multiplier="157:100" id="8uW-dP-rrw"/>
                                 </constraints>
@@ -125,15 +125,167 @@
             <point key="canvasLocation" x="105.79710144927537" y="184.82142857142856"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4U5-ts-KhN">
+            <objects>
+                <viewController id="6vj-Cg-QCy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2V-Mm-1Hr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-Zt-Vp7" userLabel="Healthcare">
+                                <rect key="frame" x="167" y="534" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Health Care"/>
+                                <connections>
+                                    <segue destination="fjz-Wd-x9t" kind="show" id="Bjn-Xs-QkT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gun Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ek-7f-jwm">
+                                <rect key="frame" x="309" y="650" width="94" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-WT-xcO">
+                                <rect key="frame" x="183" y="652" width="82" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-Gn-GhQ" userLabel="Education">
+                                <rect key="frame" x="167" y="224" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Education"/>
+                                <connections>
+                                    <segue destination="iL2-GV-aKz" kind="show" id="W6i-OY-LGp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-Wx-UhK">
+                                <rect key="frame" x="311" y="340" width="92" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4L-3a-O67" userLabel="Economy">
+                                <rect key="frame" x="299" y="379" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Economy"/>
+                                <connections>
+                                    <segue destination="aQT-o2-rvS" kind="show" id="RJB-K1-MhI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Economy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXc-fc-f1b">
+                                <rect key="frame" x="321" y="496" width="71" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9H-eh-MNS" userLabel="Climate">
+                                <rect key="frame" x="167" y="379" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Climate Change"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XEH-Bi-A4p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOy-2A-fB0">
+                                <rect key="frame" x="186" y="340" width="77" height="23.333333333333314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-L1-1fW" userLabel="Immigration">
+                                <rect key="frame" x="299" y="224" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Immigration"/>
+                                <connections>
+                                    <segue destination="G2D-uR-Mli" kind="show" id="pLN-rG-w2M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-G0-COr" userLabel="Gun Control">
+                                <rect key="frame" x="299" y="534" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Gun Control"/>
+                                <connections>
+                                    <segue destination="2O7-gF-rIz" kind="show" id="pPp-Gc-ZTS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-kP-GmM">
+                                <rect key="frame" x="192" y="498" width="59" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abortion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QU-Ne-x0A">
+                                <rect key="frame" x="63" y="494" width="90" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQ+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vW-f2-fIF">
+                                <rect key="frame" x="61" y="337" width="68" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr" userLabel="LGBTQ+">
+                                <rect key="frame" x="38" y="220" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="LGBTQ+"/>
+                                <connections>
+                                    <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv" userLabel="Abortion">
+                                <rect key="frame" x="51" y="377" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Abortion"/>
+                                <connections>
+                                    <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-do-lta" userLabel="Police Brutality">
+                                <rect key="frame" x="51" y="532" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Police Brutality"/>
+                                <connections>
+                                    <segue destination="s9b-vf-SuD" kind="show" id="Qaa-IE-4AQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Police Brutality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndL-TU-PPw">
+                                <rect key="frame" x="52" y="649" width="113" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XBE-Kx-aFW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCx-uq-EI9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2149" y="404"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="rMQ-3K-kvg">
             <objects>
                 <viewController id="ACG-Gd-DKC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzR-we-56a">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqB-Ja-Pnv">
-                                <rect key="frame" x="16" y="0.0" width="288" height="480"/>
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="17"/>
                                 <state key="normal">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -144,7 +296,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the Screen to Continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA3-fj-Hvs">
-                                <rect key="frame" x="38" y="291.5" width="244" height="27.5"/>
+                                <rect key="frame" x="65.5" y="399" width="244" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27.329999999999998" id="DIH-Ig-MWc"/>
                                     <constraint firstAttribute="height" constant="27.5" id="SAn-ax-97e"/>
@@ -154,7 +306,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © EZ Vote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tws-GR-OmM">
-                                <rect key="frame" x="81" y="447" width="158" height="23"/>
+                                <rect key="frame" x="108.5" y="634" width="158" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="Pko-xS-PI1"/>
                                 </constraints>
@@ -163,7 +315,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EZVote2" translatesAutoresizingMaskIntoConstraints="NO" id="jvG-Zg-tWx">
-                                <rect key="frame" x="20" y="138.5" width="280" height="143"/>
+                                <rect key="frame" x="20" y="218" width="335" height="171.00000000000011"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jvG-Zg-tWx" secondAttribute="height" multiplier="43:22" id="kdf-Gn-AUM"/>
                                 </constraints>
@@ -205,168 +357,67 @@
         <scene sceneID="c9m-df-7qR">
             <objects>
                 <viewController id="wUD-pM-dmd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8YP-o0-vfi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                    <view key="view" contentMode="scaleToFill" id="8YP-o0-vfi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Yr-JKr" userLabel="LGBTQ+">
-                                <rect key="frame" x="20" y="115" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="LGBTQ+"/>
-                                <connections>
-                                    <segue destination="h2a-c6-UgS" kind="show" id="Gjn-QN-i4Y"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQ+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vW-f2-fIF">
-                                <rect key="frame" x="43" y="232" width="68" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-Gn-GhQ" userLabel="Education">
-                                <rect key="frame" x="150" y="115" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Education"/>
-                                <connections>
-                                    <segue destination="iL2-GV-aKz" kind="show" id="W6i-OY-LGp"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOy-2A-fB0">
-                                <rect key="frame" x="168.5" y="231" width="77" height="23.333333333333314"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-L1-1fW" userLabel="Immigration">
-                                <rect key="frame" x="282" y="115" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Immigration"/>
-                                <connections>
-                                    <segue destination="G2D-uR-Mli" kind="show" id="pLN-rG-w2M"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-Wx-UhK">
-                                <rect key="frame" x="294" y="231" width="92" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8I-Dl-lbv" userLabel="Abortion">
-                                <rect key="frame" x="20" y="270" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Abortion"/>
-                                <connections>
-                                    <segue destination="vKs-yx-6aQ" kind="show" id="53D-IA-rBW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9H-eh-MNS" userLabel="Climate">
-                                <rect key="frame" x="150" y="270" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Climate Change"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="XEH-Bi-A4p"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-kP-GmM">
-                                <rect key="frame" x="175" y="389" width="59" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4L-3a-O67" userLabel="Economy">
-                                <rect key="frame" x="282" y="270" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Economy"/>
-                                <connections>
-                                    <segue destination="aQT-o2-rvS" kind="show" id="RJB-K1-MhI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Economy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXc-fc-f1b">
-                                <rect key="frame" x="304" y="387" width="71" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-do-lta" userLabel="Police Brutality">
-                                <rect key="frame" x="20" y="425" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Police Brutality"/>
-                                <connections>
-                                    <segue destination="s9b-vf-SuD" kind="show" id="Qaa-IE-4AQ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Police Brutality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndL-TU-PPw">
-                                <rect key="frame" x="21" y="542" width="113" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-Zt-Vp7" userLabel="Healthcare">
-                                <rect key="frame" x="150" y="425" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Health Care"/>
-                                <connections>
-                                    <segue destination="fjz-Wd-x9t" kind="show" id="Bjn-Xs-QkT"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-WT-xcO">
-                                <rect key="frame" x="166" y="543" width="82" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-G0-COr" userLabel="Gun Control">
-                                <rect key="frame" x="282" y="425" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gun Control"/>
-                                <connections>
-                                    <segue destination="2O7-gF-rIz" kind="show" id="pPp-Gc-ZTS"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gun Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ek-7f-jwm">
-                                <rect key="frame" x="292" y="541" width="94" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njr-Wn-3Ic" userLabel="HowToVote">
-                                <rect key="frame" x="20" y="600" width="280" height="610"/>
-                                <state key="normal" title="Button" image="howToVote"/>
-                                <connections>
-                                    <segue destination="hGw-e3-eyF" kind="show" id="ZWB-LR-XJV"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abortion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QU-Ne-x0A">
-                                <rect key="frame" x="32" y="387" width="90" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
-                                <rect key="frame" x="60" y="30" width="294" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-bN-mvk">
+                                <rect key="frame" x="40" y="20" width="295" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RT5-bN-mvk" secondAttribute="height" multiplier="21:5" id="xzQ-7E-LZl"/>
+                                </constraints>
                                 <string key="text">What issues are 
 meaningful to you?</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Climate Change" translatesAutoresizingMaskIntoConstraints="NO" id="rVU-om-cmT">
+                                <rect key="frame" x="140" y="229" width="95" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rVU-om-cmT" secondAttribute="height" multiplier="92:89" id="oha-35-4U2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Education" translatesAutoresizingMaskIntoConstraints="NO" id="d3z-Ec-dDL">
+                                <rect key="frame" x="140" y="122" width="95" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d3z-Ec-dDL" secondAttribute="height" multiplier="92:89" id="Sfc-7s-LBM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Health Care" translatesAutoresizingMaskIntoConstraints="NO" id="sQP-k4-cjy">
+                                <rect key="frame" x="140" y="336" width="95" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sQP-k4-cjy" secondAttribute="height" multiplier="92:89" id="H5K-SI-m7r"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5o-Vq-ES6">
+                                <rect key="frame" x="140" y="122" width="95" height="92"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iL2-GV-aKz" kind="show" id="Q86-PU-CRh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Njr-Wn-3Ic" secondAttribute="bottom" constant="15" id="1m9-4x-naD"/>
-                            <constraint firstItem="Njr-Wn-3Ic" firstAttribute="top" secondItem="I0F-bB-SWi" secondAttribute="top" multiplier="4:1" constant="600" id="2K4-Bi-XL0"/>
-                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="Njr-Wn-3Ic" secondAttribute="trailing" constant="20" id="K3X-GR-Exe"/>
-                            <constraint firstItem="Njr-Wn-3Ic" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="20" id="eOA-nw-Ndk"/>
+                            <constraint firstItem="rVU-om-cmT" firstAttribute="top" secondItem="d3z-Ec-dDL" secondAttribute="bottom" constant="15" id="0hR-gg-7Jb"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="40" id="1rQ-vx-piu"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="h5o-Vq-ES6" secondAttribute="trailing" constant="140" id="Fe0-RN-tHj"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="rVU-om-cmT" secondAttribute="trailing" constant="140" id="G9a-bE-BOf"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="RT5-bN-mvk" secondAttribute="trailing" constant="40" id="HDG-gn-7uE"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="sQP-k4-cjy" secondAttribute="trailing" constant="140" id="INv-V9-dEP"/>
+                            <constraint firstItem="d3z-Ec-dDL" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="140" id="Ilc-fv-ZhT"/>
+                            <constraint firstItem="h5o-Vq-ES6" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="140" id="cK4-eb-tw0"/>
+                            <constraint firstItem="h5o-Vq-ES6" firstAttribute="top" secondItem="RT5-bN-mvk" secondAttribute="bottom" constant="32" id="d2G-Ny-pKZ"/>
+                            <constraint firstItem="rVU-om-cmT" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="140" id="gDp-Kc-kdJ"/>
+                            <constraint firstItem="sQP-k4-cjy" firstAttribute="top" secondItem="rVU-om-cmT" secondAttribute="bottom" constant="15" id="gya-vh-i4I"/>
+                            <constraint firstItem="sQP-k4-cjy" firstAttribute="leading" secondItem="I0F-bB-SWi" secondAttribute="leading" constant="140" id="lXd-dF-F9g"/>
+                            <constraint firstItem="I0F-bB-SWi" firstAttribute="trailing" secondItem="d3z-Ec-dDL" secondAttribute="trailing" constant="140" id="xHB-kH-YlK"/>
+                            <constraint firstItem="RT5-bN-mvk" firstAttribute="top" secondItem="I0F-bB-SWi" secondAttribute="top" constant="20" id="xU0-TD-bbK"/>
+                            <constraint firstItem="d3z-Ec-dDL" firstAttribute="top" secondItem="RT5-bN-mvk" secondAttribute="bottom" constant="32" id="xXw-tT-KLr"/>
+                            <constraint firstItem="rVU-om-cmT" firstAttribute="top" secondItem="h5o-Vq-ES6" secondAttribute="bottom" constant="15" id="yaA-Bl-4o8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I0F-bB-SWi"/>
                     </view>
@@ -374,18 +425,18 @@ meaningful to you?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9e-eH-AE7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-757.97101449275374" y="-251.11607142857142"/>
+            <point key="canvasLocation" x="-760.79999999999995" y="-252.32383808095955"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="eiZ-b3-Vop">
             <objects>
                 <viewController storyboardIdentifier="sbPopUpID" id="NRN-IS-LvC" customClass="PopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pnA-V8-sq6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8VG-zE-5dJ">
-                                <rect key="frame" x="28" y="165.5" width="264" height="149"/>
+                                <rect key="frame" x="55.5" y="259" width="264" height="149"/>
                                 <color key="backgroundColor" red="0.88646914767477791" green="0.88646914767477791" blue="0.88646914767477791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="264" id="c4e-aJ-NaF"/>
@@ -464,11 +515,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="GCpopup" id="xt8-0M-hhb" customClass="GCPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z5V-xv-SBB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-ye-Lpc">
-                                <rect key="frame" x="28" y="47" width="264" height="386"/>
+                                <rect key="frame" x="55.5" y="140.5" width="264" height="386"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="386" id="004-Yx-Krn"/>
@@ -580,11 +631,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="EDpopID" id="qh1-Gr-8OB" customClass="educationPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ReT-H1-j3O">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cE-IZ-lZL">
-                                <rect key="frame" x="28" y="173.5" width="264" height="133"/>
+                                <rect key="frame" x="55.5" y="267" width="264" height="133"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="264" id="9vF-qp-bPg"/>
@@ -624,7 +675,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBm-o6-x3n">
-                                <rect key="frame" x="-47" y="-249" width="484" height="937"/>
+                                <rect key="frame" x="-19.5" y="-155.5" width="484" height="937"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="937" id="IQ9-dn-QNF"/>
                                     <constraint firstAttribute="width" constant="484" id="rDz-Gl-gxP"/>
@@ -661,11 +712,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="Abortion" id="1us-9A-gVU" customClass="AbortionPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvC-Od-tph">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F9M-fT-VWk">
-                                <rect key="frame" x="28" y="67" width="264" height="346"/>
+                                <rect key="frame" x="55.5" y="160.5" width="264" height="346"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="346" id="g11-sg-sUm"/>
@@ -804,11 +855,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="Healthcare" id="Egd-51-nCW" customClass="HCPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="35q-xJ-YSj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="scrollableAxes" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggg-Dr-hBA">
-                                <rect key="frame" x="28" y="-6.5" width="264" height="493"/>
+                                <rect key="frame" x="55.5" y="87" width="264" height="493"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="493" id="NEK-Nx-1q6"/>
@@ -860,7 +911,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-bW-0jC">
-                                <rect key="frame" x="-91" y="-235" width="475" height="923"/>
+                                <rect key="frame" x="-63.5" y="-141.5" width="475" height="923"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="923" id="J75-BO-yph"/>
                                     <constraint firstAttribute="width" constant="475" id="Xmb-vq-IfP"/>
@@ -897,11 +948,11 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController id="G2D-uR-Mli" customClass="ImmigrationViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bY6-cJ-EtN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Immigration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le4-zH-KEM">
-                                <rect key="frame" x="77" y="181.5" width="166" height="40"/>
+                                <rect key="frame" x="104.5" y="213.5" width="166" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -924,7 +975,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhC-jR-cfu">
-                                <rect key="frame" x="95" y="350.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="382.5" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -945,13 +996,13 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Immigration" translatesAutoresizingMaskIntoConstraints="NO" id="7Ld-BH-oVR">
-                                <rect key="frame" x="43" y="44" width="234" height="135.5"/>
+                                <rect key="frame" x="43" y="44" width="289" height="167.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7Ld-BH-oVR" secondAttribute="height" multiplier="164:95" id="kR7-qn-aFv"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myr-R3-QMA">
-                                <rect key="frame" x="25" y="219.5" width="270" height="123"/>
+                                <rect key="frame" x="25" y="251.5" width="325" height="123"/>
                                 <string key="text">Many people, internationally, immigrate to the United States due to job shortages, opportunities, or tragedies in their hometown. The U.S. is known as the land of immigrants with around 14% of the population being immigrants. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -986,17 +1037,17 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController id="h2a-c6-UgS" customClass="LGBTQViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WRY-bC-UHO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LGBTQ+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fki-9M-su6">
-                                <rect key="frame" x="101" y="176.5" width="118" height="40"/>
+                                <rect key="frame" x="128.5" y="211.5" width="118" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUi-Em-lt3">
-                                <rect key="frame" x="25" y="214.5" width="270" height="82"/>
+                                <rect key="frame" x="25" y="249.5" width="325" height="82"/>
                                 <string key="text">The sudden shift in sentiment from the Obama administration to the Trump administration has put LBGTQ+ protections in an unstable situation.</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1020,7 +1071,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQT-N1-zFB">
-                                <rect key="frame" x="95" y="304.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="339.5" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1041,7 +1092,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LGBTQ+" translatesAutoresizingMaskIntoConstraints="NO" id="CFP-ao-ZBy">
-                                <rect key="frame" x="56.5" y="44" width="207" height="130.5"/>
+                                <rect key="frame" x="56.5" y="44" width="262" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CFP-ao-ZBy" secondAttribute="height" multiplier="301:190" id="mYY-5d-sCB"/>
                                 </constraints>
@@ -1073,11 +1124,11 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController id="aQT-o2-rvS" customClass="EconomyViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="puh-NE-9Gc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Economy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Br8-7u-zOX">
-                                <rect key="frame" x="97" y="162" width="126" height="40"/>
+                                <rect key="frame" x="124.5" y="205.5" width="126" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1108,7 +1159,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <state key="normal" title="Definition Library"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzj-Q9-xcH">
-                                <rect key="frame" x="95" y="310.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="333.5" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1130,13 +1181,13 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Economy" translatesAutoresizingMaskIntoConstraints="NO" id="RM8-EN-kME">
-                                <rect key="frame" x="86" y="44" width="148" height="116"/>
+                                <rect key="frame" x="86" y="44" width="203" height="159.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RM8-EN-kME" secondAttribute="height" multiplier="121:95" id="JwC-hV-fju"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUc-yQ-YN9">
-                                <rect key="frame" x="25" y="200" width="270" height="102.5"/>
+                                <rect key="frame" x="25" y="243.5" width="325" height="82"/>
                                 <string key="text">In late February and early March of 2020, the United States faced a recession due to the Coronavirus (COVID-19). The next president will be responsible for reopening the economy. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1171,16 +1222,14 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController storyboardIdentifier="gunPolicy" id="2O7-gF-rIz" customClass="GCViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I4f-c0-av2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="biden" translatesAutoresizingMaskIntoConstraints="NO" id="wXH-zP-auF">
-                                <rect key="frame" x="-41" y="445" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="TpK-8L-Doa">
-                                <rect key="frame" x="-41" y="650" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biden" translatesAutoresizingMaskIntoConstraints="NO" id="wXH-zP-auF">
+                                <rect key="frame" x="4" y="384.5" width="113" height="102.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wXH-zP-auF" secondAttribute="height" multiplier="117:106" id="wOR-mG-GpU"/>
+                                </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vtI-c6-T9W">
                                 <rect key="frame" x="260" y="508" width="0.0" height="178"/>
@@ -1192,10 +1241,11 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQP-6Q-U6i">
-                                <rect key="frame" x="95" y="345.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="349.5" width="130" height="20"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="QBn-d4-6Rc"/>
+                                    <constraint firstAttribute="height" constant="20" id="eWa-K9-aRa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1216,13 +1266,13 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gun Control" translatesAutoresizingMaskIntoConstraints="NO" id="Ycs-Zf-5Vt">
-                                <rect key="frame" x="56.5" y="44" width="207" height="130.5"/>
+                                <rect key="frame" x="56.5" y="44" width="262" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ycs-Zf-5Vt" secondAttribute="height" multiplier="301:190" id="Zh3-qM-eoe"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gun Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuE-jc-BMB">
-                                <rect key="frame" x="76.5" y="176.5" width="167" height="40"/>
+                                <rect key="frame" x="104" y="211.5" width="167" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1248,7 +1298,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDs-L3-IG5">
-                                <rect key="frame" x="25" y="214.5" width="270" height="123"/>
+                                <rect key="frame" x="25" y="249.5" width="325" height="100"/>
                                 <string key="text">The 2nd Amendment guarantees the right of citizens to bear arms. However, with the influx of violent shootings in America in the last couple of years, questions have been raised as to the safety and misuse of the gun. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1261,20 +1311,34 @@ Healthcare for seniors. The federal government program that provides health insu
                                     <segue destination="wUD-pM-dmd" kind="presentation" id="dHb-aY-koJ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="TpK-8L-Doa">
+                                <rect key="frame" x="4" y="530.5" width="113" height="106.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TpK-8L-Doa" secondAttribute="height" multiplier="117:106" id="XDl-2C-gBD"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="DR3-X1-EMz" firstAttribute="trailing" secondItem="Ycs-Zf-5Vt" secondAttribute="trailing" constant="56.5" id="2mI-fa-lfY"/>
+                            <constraint firstItem="wXH-zP-auF" firstAttribute="leading" secondItem="DR3-X1-EMz" secondAttribute="leading" constant="4" id="8OS-GN-dtN"/>
                             <constraint firstItem="uuE-jc-BMB" firstAttribute="top" secondItem="Ycs-Zf-5Vt" secondAttribute="bottom" constant="2" id="8tp-PI-MKy"/>
                             <constraint firstItem="zDs-L3-IG5" firstAttribute="centerX" secondItem="I4f-c0-av2" secondAttribute="centerX" id="IFW-dh-493"/>
+                            <constraint firstItem="TpK-8L-Doa" firstAttribute="top" secondItem="zDs-L3-IG5" secondAttribute="bottom" constant="181" id="JDX-H2-zMD"/>
                             <constraint firstItem="Ycs-Zf-5Vt" firstAttribute="leading" secondItem="DR3-X1-EMz" secondAttribute="leading" constant="56.5" id="WFG-EG-zGL"/>
                             <constraint firstItem="zDs-L3-IG5" firstAttribute="top" secondItem="Ycs-Zf-5Vt" secondAttribute="bottom" constant="40" id="WcB-Va-xcP"/>
+                            <constraint firstItem="wXH-zP-auF" firstAttribute="top" secondItem="zDs-L3-IG5" secondAttribute="bottom" constant="35" id="YjF-pe-Nbl"/>
                             <constraint firstItem="zDs-L3-IG5" firstAttribute="leading" secondItem="DR3-X1-EMz" secondAttribute="leading" constant="25" id="b5I-Wb-ukk"/>
-                            <constraint firstItem="rQP-6Q-U6i" firstAttribute="top" secondItem="zDs-L3-IG5" secondAttribute="bottom" constant="8" id="e5T-hc-gyu"/>
+                            <constraint firstItem="rQP-6Q-U6i" firstAttribute="top" secondItem="zDs-L3-IG5" secondAttribute="bottom" id="e5T-hc-gyu"/>
                             <constraint firstItem="DR3-X1-EMz" firstAttribute="trailing" secondItem="zDs-L3-IG5" secondAttribute="trailing" constant="25" id="euy-Qg-NIj"/>
                             <constraint firstItem="Ycs-Zf-5Vt" firstAttribute="top" secondItem="DR3-X1-EMz" secondAttribute="top" constant="44" id="g0u-nu-E0B"/>
+                            <constraint firstItem="TpK-8L-Doa" firstAttribute="leading" secondItem="DR3-X1-EMz" secondAttribute="leading" constant="4" id="lOc-DN-hAa"/>
                             <constraint firstItem="uuE-jc-BMB" firstAttribute="centerX" secondItem="I4f-c0-av2" secondAttribute="centerX" id="nQq-Za-0dD"/>
                             <constraint firstItem="rQP-6Q-U6i" firstAttribute="centerX" secondItem="I4f-c0-av2" secondAttribute="centerX" id="s8J-qd-hhx"/>
+                            <constraint firstItem="DR3-X1-EMz" firstAttribute="trailing" secondItem="wXH-zP-auF" secondAttribute="trailing" constant="258" id="s8S-lz-Niv"/>
+                            <constraint firstItem="DR3-X1-EMz" firstAttribute="bottom" secondItem="wXH-zP-auF" secondAttribute="bottom" constant="160" id="uMX-YT-40I"/>
+                            <constraint firstItem="DR3-X1-EMz" firstAttribute="bottom" secondItem="TpK-8L-Doa" secondAttribute="bottom" constant="10" id="vlH-uf-fE2"/>
+                            <constraint firstItem="DR3-X1-EMz" firstAttribute="trailing" secondItem="TpK-8L-Doa" secondAttribute="trailing" constant="258" id="xd0-yf-jNd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DR3-X1-EMz"/>
                     </view>
@@ -1282,18 +1346,18 @@ Healthcare for seniors. The federal government program that provides health insu
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EM5-0J-IBt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986.95652173913049" y="184.82142857142856"/>
+            <point key="canvasLocation" x="984.05797101449286" y="182.60869565217394"/>
         </scene>
         <!--Education View Controller-->
         <scene sceneID="5X8-xa-Sb0">
             <objects>
                 <viewController id="iL2-GV-aKz" customClass="EducationViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ymv-CM-o5r">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2f-qF-E2y">
-                                <rect key="frame" x="91.5" y="176.5" width="137" height="40"/>
+                                <rect key="frame" x="119" y="211.5" width="137" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1302,12 +1366,8 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <rect key="frame" x="-41" y="445" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="JTL-eC-Urh">
-                                <rect key="frame" x="-41" y="650" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Education" translatesAutoresizingMaskIntoConstraints="NO" id="en8-eY-flZ">
-                                <rect key="frame" x="56.5" y="44" width="207" height="130.5"/>
+                                <rect key="frame" x="56.5" y="44" width="262" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="en8-eY-flZ" secondAttribute="height" multiplier="301:190" id="62T-DC-0MN"/>
                                 </constraints>
@@ -1322,7 +1382,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSe-Cv-0EK">
-                                <rect key="frame" x="95" y="345.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="360" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="oqh-fM-waJ"/>
@@ -1346,12 +1406,16 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VE-4j-9AV">
-                                <rect key="frame" x="25" y="214.5" width="270" height="123"/>
+                                <rect key="frame" x="25" y="249.5" width="325" height="102.5"/>
                                 <string key="text">Education covers topics such as school safety, teacher compensations, and college debt. Students, teachers, and families of students are greatly impacted by educational policies set in place by the government. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="JTL-eC-Urh">
+                                <rect key="frame" x="-41" y="581" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1380,17 +1444,17 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController id="fjz-Wd-x9t" customClass="HCViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qsR-Uq-J2d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJ4-Qa-qxt">
-                                <rect key="frame" x="86" y="176.5" width="148" height="40"/>
+                                <rect key="frame" x="113.5" y="211.5" width="148" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRc-Nv-obg">
-                                <rect key="frame" x="25" y="214.5" width="270" height="164"/>
+                                <rect key="frame" x="25" y="249.5" width="325" height="143.5"/>
                                 <string key="text">Healthcare in the United States revolves around mainly two aspects: providing affordable healthcare insurance to more Americans, and changing the healthcare delivery system, improving the quality of care while controlling costs. The way to accomplish this is what politicians constantly argue over. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1414,7 +1478,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-jK-XLk">
-                                <rect key="frame" x="95" y="386.5" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="401" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="FPS-Ph-muh"/>
@@ -1438,7 +1502,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Health Care" translatesAutoresizingMaskIntoConstraints="NO" id="bg3-Gg-5gU">
-                                <rect key="frame" x="56.5" y="44" width="207" height="130.5"/>
+                                <rect key="frame" x="56.5" y="44" width="262" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bg3-Gg-5gU" secondAttribute="height" multiplier="301:190" id="tRS-M1-zn8"/>
                                 </constraints>
@@ -1472,11 +1536,11 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController id="s9b-vf-SuD" customClass="PBViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XCh-wZ-tTT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Police Brutality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-Q7-yxC">
-                                <rect key="frame" x="56" y="236" width="208" height="40"/>
+                                <rect key="frame" x="83.5" y="236" width="208" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1490,7 +1554,7 @@ Healthcare for seniors. The federal government program that provides health insu
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Police Brutality" translatesAutoresizingMaskIntoConstraints="NO" id="Fjx-c0-dbe">
-                                <rect key="frame" x="70" y="44" width="180" height="190"/>
+                                <rect key="frame" x="97.5" y="44" width="180" height="190"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Fjx-c0-dbe" secondAttribute="height" multiplier="18:19" id="xbw-mj-XrV"/>
                                 </constraints>
@@ -1516,14 +1580,14 @@ Healthcare for seniors. The federal government program that provides health insu
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGB-Uh-98M">
-                                <rect key="frame" x="25" y="274" width="270" height="123"/>
+                                <rect key="frame" x="25" y="274" width="325" height="102.5"/>
                                 <string key="text">Police brutality explores the intersection between government interaction with the public and racial discrimination. Neither candidate stands for racism, but they disagree on how to best combat this problem.</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14v-fp-XSb">
-                                <rect key="frame" x="95" y="405" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="384.5" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="i1L-EN-EeI"/>
@@ -1561,11 +1625,11 @@ Healthcare for seniors. The federal government program that provides health insu
             <objects>
                 <viewController storyboardIdentifier="PB" id="XEM-s4-x49" customClass="PBPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0bc-go-xrb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKn-zA-Ygc">
-                                <rect key="frame" x="28" y="50" width="264" height="380"/>
+                                <rect key="frame" x="55.5" y="143.5" width="264" height="380"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="380" id="Cf1-hl-heF"/>
@@ -1642,7 +1706,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMn-Ki-MwR">
-                                <rect key="frame" x="-57" y="-241.5" width="459" height="963"/>
+                                <rect key="frame" x="-29.5" y="-148" width="459" height="963"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="963" id="Lqd-Vq-38Y"/>
                                     <constraint firstAttribute="width" constant="459" id="ogS-Ed-GYC"/>
@@ -1679,11 +1743,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="econ" id="YWG-bl-5iy" customClass="EconomyPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="44f-gs-VVT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0V-0I-qrM">
-                                <rect key="frame" x="28" y="131.5" width="264" height="217"/>
+                                <rect key="frame" x="55.5" y="225" width="264" height="217"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="217" id="EfP-nf-RcI"/>
@@ -1721,7 +1785,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53s-Bk-giz">
-                                <rect key="frame" x="-134" y="-258" width="558" height="946"/>
+                                <rect key="frame" x="-106.5" y="-164.5" width="558" height="946"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="946" id="XWD-gF-qLB"/>
                                     <constraint firstAttribute="width" constant="558" id="opT-Kt-9W7"/>
@@ -1758,11 +1822,11 @@ Cg
             <objects>
                 <viewController storyboardIdentifier="immigration" id="taz-mG-zOx" customClass="ImmigrationPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FEU-6I-bgu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrZ-ni-WJm">
-                                <rect key="frame" x="28" y="-92" width="264" height="664"/>
+                                <rect key="frame" x="55.5" y="1.5" width="264" height="664"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="664" id="DTD-jV-GeN"/>
@@ -1851,7 +1915,7 @@ American immigration policy calling for certain undocumented young people who ca
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHU-JP-urH">
-                                <rect key="frame" x="-78" y="-232" width="504" height="944"/>
+                                <rect key="frame" x="-50.5" y="-138.5" width="504" height="944"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="944" id="GOY-vx-TLB"/>
                                     <constraint firstAttribute="width" constant="504" id="Tcn-Fb-ckV"/>
@@ -1888,11 +1952,11 @@ American immigration policy calling for certain undocumented young people who ca
             <objects>
                 <viewController storyboardIdentifier="LGBTQ+" id="Xa8-Sz-yCY" customClass="LGBTQPopUpViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f0V-wx-J7w">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ZP-I6-A9v">
-                                <rect key="frame" x="28" y="65" width="264" height="350"/>
+                                <rect key="frame" x="55.5" y="158.5" width="264" height="350"/>
                                 <color key="backgroundColor" red="0.88646914769999996" green="0.88646914769999996" blue="0.88646914769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="264" id="KFw-u1-WWl"/>
@@ -1955,7 +2019,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhL-gm-llW">
-                                <rect key="frame" x="-109" y="-208" width="503" height="896"/>
+                                <rect key="frame" x="-81.5" y="-114.5" width="503" height="896"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="503" id="ZTI-Zv-FTT"/>
                                     <constraint firstAttribute="height" constant="896" id="gkX-i2-OcV"/>
@@ -1992,7 +2056,7 @@ Cg
             <objects>
                 <viewController id="hGw-e3-eyF" customClass="votingViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UYj-db-Ya7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="FHU-YA-LDq">
@@ -2010,7 +2074,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yo-dH-8RV">
-                                <rect key="frame" x="16" y="222.5" width="288" height="50"/>
+                                <rect key="frame" x="16" y="244" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.90949961629565368" green="0.92604309300982424" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="U7I-vs-cmm"/>
@@ -2024,7 +2088,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ni-dg-3tY">
-                                <rect key="frame" x="16" y="317.5" width="288" height="50"/>
+                                <rect key="frame" x="16" y="339" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.90949961629999998" green="0.92604309299999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="kOI-pv-bMh"/>
@@ -2038,7 +2102,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKe-sE-VBQ">
-                                <rect key="frame" x="16" y="412.5" width="288" height="50"/>
+                                <rect key="frame" x="16" y="434" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.90949961629999998" green="0.92604309299999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="lsY-zf-FUx"/>
@@ -2052,7 +2116,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3b-Kq-30X">
-                                <rect key="frame" x="16" y="507.5" width="288" height="50"/>
+                                <rect key="frame" x="16" y="529" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.90949961629999998" green="0.92604309299999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gfm-EX-xOh"/>
@@ -2066,7 +2130,7 @@ Cg
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="votingInTexas" translatesAutoresizingMaskIntoConstraints="NO" id="xaG-6w-JiF">
-                                <rect key="frame" x="16" y="64" width="288" height="113.5"/>
+                                <rect key="frame" x="16" y="64" width="343" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xaG-6w-JiF" secondAttribute="height" multiplier="343:135" id="8nX-kX-B2W"/>
                                 </constraints>
@@ -2116,11 +2180,11 @@ Cg
             <objects>
                 <viewController id="1PT-pp-evY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mVo-gd-XdX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QrU-ae-FhP">
-                                <rect key="frame" x="-27" y="-147" width="374" height="764"/>
+                                <rect key="frame" x="0.5" y="-53.5" width="374" height="764"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="aIj-HN-79S"/>
@@ -2180,7 +2244,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXo-Ir-DnC">
-                                <rect key="frame" x="291" y="-136" width="33" height="72"/>
+                                <rect key="frame" x="318.5" y="-42.5" width="33" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="12d-JP-Dsb"/>
                                     <constraint firstAttribute="width" constant="33" id="P48-KO-f1S"/>
@@ -2214,17 +2278,17 @@ Cg
             <objects>
                 <viewController id="vKs-yx-6aQ" customClass="AbortionViewController" customModule="EZ_Vote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kll-Wy-BcS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abortion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxI-dW-VTT">
-                                <rect key="frame" x="98.5" y="176.5" width="123" height="40"/>
+                                <rect key="frame" x="126" y="211.5" width="123" height="40"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPG-uw-gs3">
-                                <rect key="frame" x="25" y="214.5" width="270" height="102.5"/>
+                                <rect key="frame" x="25" y="249.5" width="325" height="82"/>
                                 <string key="text">SInce Roe v Wade in 1973, abortion has been a controversial issue in US politics. The future president has the power to to affect how women can receive the procedure. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -2232,10 +2296,6 @@ Cg
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="biden" translatesAutoresizingMaskIntoConstraints="NO" id="heY-ni-UWF">
                                 <rect key="frame" x="-41" y="445" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="GmC-EB-jML">
-                                <rect key="frame" x="-41" y="650" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A7R-7c-yDZ">
@@ -2248,7 +2308,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ade-GD-0pA">
-                                <rect key="frame" x="95" y="325" width="130" height="36"/>
+                                <rect key="frame" x="122.5" y="339.5" width="130" height="36"/>
                                 <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2269,10 +2329,14 @@ Cg
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Abortion" translatesAutoresizingMaskIntoConstraints="NO" id="4k9-8w-06G">
-                                <rect key="frame" x="56.5" y="44" width="207" height="130.5"/>
+                                <rect key="frame" x="56.5" y="44" width="262" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4k9-8w-06G" secondAttribute="height" multiplier="301:190" id="O5T-Nw-2B0"/>
                                 </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="GmC-EB-jML">
+                                <rect key="frame" x="-41" y="581" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2311,11 +2375,11 @@ Cg
             <objects>
                 <viewController id="4hd-I1-dUQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cbc-WV-75N">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpe-I5-FdK">
-                                <rect key="frame" x="-27" y="-147" width="374" height="764"/>
+                                <rect key="frame" x="0.5" y="-53.5" width="374" height="764"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="hUa-o1-1W5"/>
@@ -2416,7 +2480,7 @@ Cgo
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVT-2t-gwT">
-                                <rect key="frame" x="291" y="-136" width="33" height="72"/>
+                                <rect key="frame" x="318.5" y="-42.5" width="33" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="33" id="lqB-GF-Iks"/>
                                     <constraint firstAttribute="height" constant="72" id="zZ4-s2-reE"/>
@@ -2450,7 +2514,7 @@ Cgo
             <objects>
                 <viewController id="gOf-Vy-3PX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XX8-r5-eAy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DB-z0-axr">
@@ -2462,7 +2526,7 @@ Cgo
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2z-1s-KVI">
-                                <rect key="frame" x="-27" y="-150" width="374" height="767"/>
+                                <rect key="frame" x="0.5" y="-56.5" width="374" height="767"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="767" id="937-RC-T7C"/>
@@ -2512,7 +2576,7 @@ Cgo
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKL-jA-uWu">
-                                <rect key="frame" x="295" y="-137" width="33" height="72"/>
+                                <rect key="frame" x="322.5" y="-43.5" width="33" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="33" id="CaP-av-Ihh"/>
                                     <constraint firstAttribute="height" constant="72" id="lxD-Oq-KnO"/>
@@ -2542,10 +2606,6 @@ Cgo
             <point key="canvasLocation" x="1769.5652173913045" y="908.70535714285711"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="ZWB-LR-XJV"/>
-        <segue reference="OVq-Hf-75d"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Abortion" width="300" height="298"/>
         <image name="Climate Change" width="256" height="256"/>
@@ -2559,8 +2619,12 @@ Cgo
         <image name="Police Brutality" width="180" height="182"/>
         <image name="back" width="200" height="200"/>
         <image name="biden" width="557" height="540"/>
-        <image name="howToVote" width="1102" height="610"/>
         <image name="trump" width="366" height="346"/>
         <image name="votingInTexas" width="1610" height="638"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hfY-IC-5PN"/>
+        <segue reference="Q86-PU-CRh"/>
+        <segue reference="dHb-aY-koJ"/>
+    </inferredMetricsTieBreakers>
 </document>
