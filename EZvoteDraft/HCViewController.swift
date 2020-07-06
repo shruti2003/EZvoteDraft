@@ -9,6 +9,7 @@
 import UIKit
 
 class HCViewController: UIViewController {
+    @IBOutlet weak var button: UIButton!
     let tableView:UITableView = {
              let tb = UITableView()
              tb.translatesAutoresizingMaskIntoConstraints = false
@@ -29,10 +30,10 @@ class HCViewController: UIViewController {
          fileprivate func setUpTableView(){
              view.addSubview(tableView)
              
-            tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 500).isActive = true
+            tableView.topAnchor.constraint(equalTo: button.topAnchor, constant: 80).isActive = true
              tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 150).isActive = true
              tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
-             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50).isActive = true
+             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30).isActive = true
              tableView.register(MCDropCell.self, forCellReuseIdentifier: "cell")
 
              tableView.delegate = self
@@ -52,8 +53,8 @@ class HCViewController: UIViewController {
     
          //edit words for health care here
          let data = [
-                 MCDropData(title: "Biden's View", url: "• Stop surprise billing \n• Prescription drug reform \n •Plans to create a new Medicare-like public option that revolves around said Act. \n • Every American should be able to have the comfort of knowing they have affordable and quality healthcare. \n"),
-                 MCDropData(title: "Trump's View", url: "• During his term, Trump has increased the availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. \n •The Administration’s expansion plans to give millions of Americans more options to select a health plan that meets their need.")
+                 MCDropData(title: "Biden's View", url: "• Stop surprise billing \n• Prescription drug reform \n •Plans to create a new Medicare-like public option that revolves around said Act. \n • Every American should be able to have the comfort of knowing they have affordable\n"),
+                 MCDropData(title: "Trump's View", url: "• During his term, Trump has increased the availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. \n •The Administration’s expansion plans to give millions of Americans more options to select a suitable health plan.")
              ]
              
              var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -67,7 +68,7 @@ class HCViewController: UIViewController {
          extension HCViewController: UITableViewDelegate, UITableViewDataSource {
              
              func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                 if selectedIndex == indexPath { return 350 }
+                 if selectedIndex == indexPath { return 400 }
                  return 60
              }
              

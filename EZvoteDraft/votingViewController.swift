@@ -9,12 +9,18 @@
 import UIKit
 
 class votingViewController: UIViewController {
-
     
-   
+    
+
+    @IBOutlet weak var texas: UIImageView!
+    @IBOutlet weak var how: UIImageView!
+    @IBOutlet weak var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     }
+    
     @IBAction func votingHub(_ sender: Any) {
 
     UIApplication.shared.open(URL(string: "https://www.votetexas.gov/index.html")! as URL, options: [:], completionHandler: nil)

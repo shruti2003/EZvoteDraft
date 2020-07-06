@@ -10,6 +10,7 @@ import UIKit
 
 class EconomyViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
     let tableView:UITableView = {
              let tb = UITableView()
              tb.translatesAutoresizingMaskIntoConstraints = false
@@ -30,10 +31,10 @@ class EconomyViewController: UIViewController {
          fileprivate func setUpTableView(){
              view.addSubview(tableView)
              
-            tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 500).isActive = true
+            tableView.topAnchor.constraint(equalTo: button.topAnchor, constant: 80).isActive = true
              tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 150).isActive = true
              tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
-             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50).isActive = true
+             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30).isActive = true
              tableView.register(MCDropCell.self, forCellReuseIdentifier: "cell")
 
              tableView.delegate = self
@@ -73,7 +74,7 @@ class EconomyViewController: UIViewController {
          extension EconomyViewController: UITableViewDelegate, UITableViewDataSource {
              
              func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-                 if selectedIndex == indexPath { return 350 }
+                 if selectedIndex == indexPath { return 400 }
                  return 60
              }
              
