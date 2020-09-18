@@ -61,7 +61,7 @@ class EducationViewController: UIViewController {
 //edit words for education here
 let edudata = [
     MCDropData(title: "Biden's View", url: "• Provide two years of community college tuition-free for hard-working students.\n • Make public colleges and universities tuition-free for all families with incomes below $125,000 \n • Biden's education plan calls for fully funding individuals with Disabilities"),
-    MCDropData(title: "Trump's View", url: "• Supports public money for private schools \n •  Tries to cut funding on education every year\n •  Does not support Obama’s guidance in protecting transgender students' rights and promoting racial diversity in schools.")
+    MCDropData(title: "Trump's View", url: "• Supports public money for private schools \n •  Tries to cut funding on education every year\n •  Trump does not support Common Core standards and feels education should be handled at state and local levels, not nationally.")
           ]
           
           var selectedEduIndex: IndexPath = IndexPath(row: 0, section: 0)

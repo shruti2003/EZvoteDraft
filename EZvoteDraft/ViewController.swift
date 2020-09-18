@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
     
     let data = [
-        MCDropData(title: "Biden's View", url: "• Nuclear Power: Support developing new nuclear technologies as part of an effort to fight climate change \n • Oil and gas drilling End new oil and gas leases on federal land and end offshore drilling \n • Reduce Carbon Emissions: Tax carbon emissions"),
+        MCDropData(title: "Biden's View", url: "• Nuclear Power: Support developing new nuclear technologies as part of an effort to fight climate change \n • Oil and gas drilling end new oil and gas leases on federal land and end offshore drilling \n • Reduce Carbon Emissions: Tax carbon emissions"),
         MCDropData(title: "Trump's View", url: "• Believes in climate change and the need for clean air and water \n •  Wants to loosen restrictions on methane emissions \n• Vows to save America’s coal industry from a cascading collapse")
     ]
     
