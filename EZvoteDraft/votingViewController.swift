@@ -23,7 +23,7 @@ class votingViewController: UIViewController {
     
     @IBAction func votingHub(_ sender: Any) {
 
-    UIApplication.shared.open(URL(string: "https://www.votetexas.gov/index.html")! as URL, options: [:], completionHandler: nil)
+    UIApplication.shared.open(URL(string: "https://www.usa.gov/election-office")! as URL, options: [:], completionHandler: nil)
     }
     
     
