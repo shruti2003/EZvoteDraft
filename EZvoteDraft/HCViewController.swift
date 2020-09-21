@@ -53,9 +53,9 @@ class HCViewController: UIViewController {
     
          //edit words for health care here
          let data = [
-                 MCDropData(title: "Biden's View", url: "• Stop surprise billing \n• Prescription drug reform \n •Plans to create a new Medicare-like public option that revolves around said Act. \n • Every American should be able to have the comfort of knowing they have affordable\n"),
-                 MCDropData(title: "Trump's View", url: "• During his term, Trump has increased the availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. \n •The Administration’s expansion plans to give millions of Americans more options to select a suitable health plan.")
-             ]
+                 MCDropData(title: "Biden's View", url: "• Biden is very pro the Affordable Care Act, which created Obamacare. \n• He plans to create a new Medicare-like public option. \n • He plans to lower medicare to the age of 60, making 2 million more people eligible. \n • He plans to stop the surprise billing."),
+                 MCDropData(title: "Trump's View", url: "• Trump has increased availability of short-term plans to provide options that can be up to 60 percent cheaper than Obamacare plans. \n • Trump plans to make prescriptions cheaper and does not want Americans to pay more than necessary for medicine.")
+            ]
              
              var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
 

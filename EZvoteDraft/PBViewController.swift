@@ -54,8 +54,8 @@ class PBViewController: UIViewController {
  
          //edit words for health care here
          let data = [
-                 MCDropData(title: "Biden's View", url: "• Biden claims that President Trump is part of the issue of racism in our country. \n • He claims this division of races is one that he will seek to fix.\n• Biden called for police reforms, including a national ban on choke holds to disable a suspect."),
-                 MCDropData(title: "Trump's View", url: "• Trump feels that as a country we have to work together to confront bigotry and prejudice wherever they appear.\n • But we'll make no progress and heal no wounds by falsely labelling tens of millions of decent Americans as racist or bigots.")
+                 MCDropData(title: "Biden's View", url: "• Biden claims the division of races is one that he will seek to fix, and admits racism is an ongoing issue. \n • He called for police reforms, including a national ban on chokeholds to disable a suspect. \n• Biden encourages the peaceful protests on race issues, and feels violence is not helpful to any cause."),
+                 MCDropData(title: "Trump's View", url: "• Trump feels that as a country we have to work together to confront bigotry, but we will make no progress by falsely labelling Americans as racist or bigots. \n • Trump claims that we must invest more energy and resources in police training. \n • He feels that we have to respect our police because they are protecting us.")
 
              ]
              

@@ -10,6 +10,7 @@ import UIKit
 
 class EducationViewController: UIViewController {
     
+    @IBOutlet weak var button: UIButton!
     let tableView:UITableView = {
           let tb = UITableView()
           tb.translatesAutoresizingMaskIntoConstraints = false
@@ -30,10 +31,10 @@ class EducationViewController: UIViewController {
       fileprivate func setUpTableView(){
           view.addSubview(tableView)
           
-         tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 500).isActive = true
+         tableView.topAnchor.constraint(equalTo: button.topAnchor, constant: 80).isActive = true
           tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 150).isActive = true
           tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
-          tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50).isActive = true
+          tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30).isActive = true
           tableView.register(MCDropCell.self, forCellReuseIdentifier: "cell")
 
           tableView.delegate = self
@@ -60,7 +61,7 @@ class EducationViewController: UIViewController {
 //edit words for education here
 let edudata = [
     MCDropData(title: "Biden's View", url: "• Provide two years of community college tuition-free for hard-working students.\n • Make public colleges and universities tuition-free for all families with incomes below $125,000 \n • Biden's education plan calls for fully funding individuals with Disabilities"),
-    MCDropData(title: "Trump's View", url: "• Supports public money for private schools \n •  Tries to cut funding on education every year\n •  Does not support Obama’s guidance in protecting transgender students' rights and promoting racial diversity in schools.")
+    MCDropData(title: "Trump's View", url: "• Supports public money for private schools \n •  Tries to cut funding on education every year\n •  Trump does not support Common Core standards and feels education should be handled at state and local levels, not nationally.")
           ]
           
           var selectedEduIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -72,7 +73,7 @@ let edudata = [
       extension EducationViewController: UITableViewDelegate, UITableViewDataSource {
           
           func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-              if selectedEduIndex == indexPath { return 350 }
+              if selectedEduIndex == indexPath { return 400 }
               return 60
           }
           

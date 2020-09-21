@@ -19,7 +19,8 @@ class MCDropCell: UITableViewCell {
     
     fileprivate let title: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18, weight: .bold)
+        //label.font = UIFont.systemFont(ofSize: 18, weight: .bold)
+        label.font = UIFont(name: "Avenir", size: 18)
         label.text = "hmm course title here"
         label.textColor = .white
         label.textAlignment = .center
@@ -30,10 +31,11 @@ class MCDropCell: UITableViewCell {
     
     fileprivate let url: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+       // label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        label.font = UIFont(name: "Avenir", size: 18)
         label.text = "pro ios course at maxcodes.io/courses"
         label.textColor = .white
-        label.numberOfLines = -1
+        label.numberOfLines = -15
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -67,7 +69,7 @@ class MCDropCell: UITableViewCell {
         url.topAnchor.constraint(equalTo: title.bottomAnchor).isActive = true
         url.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 4).isActive = true
         url.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -4).isActive = true
-        url.heightAnchor.constraint(equalToConstant: 140).isActive = true
+        url.heightAnchor.constraint(equalToConstant: 300).isActive = true
         
     }
     

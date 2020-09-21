@@ -54,8 +54,8 @@ class LGBTQViewController: UIViewController {
      
           //edit words for health care here
           let data = [
-                  MCDropData(title: "Biden's View", url: "• 2012 shift to support of gay marriage rights \n • General supporter of LGBT+ rights \n • Will make the Equality Act a priority in his first 100 days in office \n• Joe Biden believes that every human being should be treated with respect and dignity and be able to live without fear"),
-                  MCDropData(title: "Trump's View", url: "• Against transgender troops \n • June 2020 ruling revoked transgender protections in healthcare \n • Generally appeases evangelical supporters on LGBT issues \n• Opposes the equality act\n• Avoids commenting on LGBTQ issues")
+                  MCDropData(title: "Biden's View", url: "• Biden considers himself pro-LGBTQ+ rights. \n • Although he voted in favor of the Defense of Marriage Act in 1996, he will make the Equality Act a priority in his first 100 days in office. \n • He will ensure equality for these people in the job market, the criminal justice system, and on the healthcare circuit."),
+                  MCDropData(title: "Trump's View", url: "• Trump considers himself pro-LGBTQ+. \n • Pledges to decriminalize LGBTQ+, change the ban on donating blood, and end the HIV/AIDS epidemic by 2030. \n • Opposes the Equality Act and feels it undermines parental rights. \n • Has policy that bans openly trans people from serving in the military.")
               ]
               
               var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)

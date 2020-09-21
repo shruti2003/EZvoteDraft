@@ -56,8 +56,8 @@ class GCViewController: UIViewController {
     
     //edit words for gun control here
     let data = [
-            MCDropData(title: "Biden's View", url: "•Buyback program for individuals to sell their assault weapons to the government \n •In favor of universal background checks\n •Give states and local governments grants to require individuals to obtain a license prior to purchasing a gun."),
-            MCDropData(title: "Trump's View", url: "• Promotes a concealed carry permit\n • Believes that the government shouldn't control the type of firearms citizens have access to \n • Emphasis on Mental Health for background checks\n • Plans to  raise the age to 21")
+            MCDropData(title: "Biden's View", url: "• Regarding gun policy, Biden has a plan that he feels will keep danger off our streets: hold gun manufacturers accountable and get war weapons off the street. \n • He will begin a buyback program for individuals to sell their assault weapons to the government or register them under the NFA."),
+            MCDropData(title: "Trump's View", url: "• Trump supports Comprehensive Background Checks to ensure only fit people own guns. \n • He feels that teachers should be allowed to carry guns at school for safety. \n • He plans to raise the age to twenty-one and ban Bump Stocks.")
         ]
         
         var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)

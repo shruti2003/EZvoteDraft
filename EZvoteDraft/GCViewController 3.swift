@@ -52,8 +52,8 @@ class GCViewController: UIViewController {
     
     //edit words for gun control here
     let data = [
-            MCDropData(title: "Biden's View", url: "•Buyback program for individuals to sell their assault weapons to the government \n •In favor of universal background checks\n •Give states and local governments grants to require individuals to obtain a license prior to purchasing a gun."),
-            MCDropData(title: "Trump's View", url: "• Promotes a concealed carry permit\n • Believes that the government shouldn't control the type of firearms citizens have access to \n • Emphasis on Mental Health for background checks\n • Plans to  raise the age to 21")
+            MCDropData(title: "Biden's View", url: "•Buyback program for individuals to sell their assault weapons to the government •In favor of universal background checks •Individuals need grants to obtain a license prior to purchasing a gun."),
+            MCDropData(title: "Trump's View", url: "• Promotes a concealed carry permit • Believes that the government should not control what type of firearms citizens should have access to • Emphasis on Mental Health for background checks")
         ]
         
         var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -67,7 +67,7 @@ class GCViewController: UIViewController {
     extension GCViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            if selectedIndex == indexPath { return 350 }
+            if selectedIndex == indexPath { return 200 }
             return 60
         }
         

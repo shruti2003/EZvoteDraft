@@ -57,8 +57,8 @@ class AbortionViewController: UIViewController {
             
         
         let data = [
-            MCDropData(title: "Biden's View", url: "• Biden claims he would give unequivocal support for women who have abortions. \n • Restoring federal funding for Planned Parenthood, including through Medicaid and Title X \n •no longer supports the Hyde Amendment"),
-            MCDropData(title: "Trump's View", url: "• Vows to stand with anti-abortion activists, considers himself pro-life \n • Promise to appoint “pro-life judges” in the Supreme Court \n • Trump said abortion should be outlawed and women who have abortions should face consequences. ")
+            MCDropData(title: "Biden's View", url: "• Biden is pro-choice, and is personally opposed to abortion but believes it should be legal. \n • He will give support for women who have abortions.\n • Biden no longer supports the Hyde Amendment.\n • He would restore federal funding for Planned Parenthood."),
+            MCDropData(title: "Trump's View", url: "• Trump is a pro-life candidate. \n • Will end research that uses tissue from aborted fetuses. \n • Planned parenthood should be defunded and another program should be made for handling cancer aspects \n • We should ban late term abortions with exceptions for rape, incest or health.")
                 ]
         
         var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)

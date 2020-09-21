@@ -9,8 +9,9 @@
 import UIKit
 
 class ImmigrationViewController: UIViewController {
-        @IBOutlet weak var definitionButton: UIButton!
-        
+   
+    @IBOutlet weak var button: UIButton!
+    
         let tableView:UITableView = {
             let tb = UITableView()
             tb.translatesAutoresizingMaskIntoConstraints = false
@@ -31,10 +32,10 @@ class ImmigrationViewController: UIViewController {
         fileprivate func setUpTableView(){
             view.addSubview(tableView)
             
-            tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 500).isActive = true
+            tableView.topAnchor.constraint(equalTo: button.topAnchor, constant: 80).isActive = true
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 150).isActive = true
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50).isActive = true
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30).isActive = true
             tableView.register(MCDropCell.self, forCellReuseIdentifier: "cell")
 
             
@@ -54,8 +55,8 @@ class ImmigrationViewController: UIViewController {
             }
             
             let data = [
-                MCDropData(title: "Biden's View", url: "• Implement effective border screening • Reassert America’s commitment to asylum seekers and refugees • Ensure that Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP) personnel abide by professional standards and are held accountable for inhumane treatment.• Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will explore all legal options to protect their families from inhumane separation."),
-                MCDropData(title: "Trump's View", url: "• Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants • Suppors endinging chain migration, eliminatuing the VISA lottery in which immigrants can enter the United States through a “lottery” • Moved the country to a merit-based entry system")
+                MCDropData(title: "Biden's View", url: "• Implement effective border screening \n • Reassert America’s commitment to asylum seekers and refugees \n • Protect Dreamers and their families. Biden will remove the uncertainty for Dreamers by reinstating the DACA program, and he will protect their families"),
+                MCDropData(title: "Trump's View", url: "\n • Secure the border: Committed to constructing a border wall and ensuring the swift removal of unlawful entrants \n • Supports ending chain migration and eliminating the VISA lottery which is a lottery system to enter the US")
             ]
             
             var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
@@ -73,7 +74,7 @@ class ImmigrationViewController: UIViewController {
     extension ImmigrationViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            if selectedIndex == indexPath { return 200 }
+            if selectedIndex == indexPath { return 400 }
             return 60
         }
         
